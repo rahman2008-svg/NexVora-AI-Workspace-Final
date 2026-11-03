@@ -3,6 +3,9 @@ name: Android Debug APK
 # Builds a debug APK with the JavaScript bundled inside, so it installs and runs without Metro.
 # Run it from the GitHub "Actions" tab (workflow_dispatch). No secrets are needed.
 on:
+  push:
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:
