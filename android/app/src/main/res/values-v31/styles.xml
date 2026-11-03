@@ -1,0 +1,13 @@
+<resources>
+    <!--
+      Android 12+ system splash screen: shows the NexVora launcher icon on the NexVora background colour.
+      (Duplicates AppTheme from values/styles.xml plus the splash attributes - keep both files in sync.)
+    -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:editTextBackground">@drawable/rn_edit_text_material</item>
+        <item name="android:windowBackground">@color/splash_background</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowSplashScreenBackground">@color/splash_background</item>
+    </style>
+</resources>

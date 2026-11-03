@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- NexVora brand: background #090B14, cyan #22D3EE, violet #8B5CF6 -->
+    <color name="splash_background">#090B14</color>
+    <color name="nexvora_cyan">#22D3EE</color>
+    <color name="nexvora_violet">#8B5CF6</color>
+    <color name="nexvora_surface">#141827</color>
+</resources>

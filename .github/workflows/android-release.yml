@@ -1,0 +1,84 @@
+name: Android Release APK
+
+# Builds a SIGNED release APK. It needs YOUR signing key, stored as GitHub repository secrets
+# (Settings > Secrets and variables > Actions). Nothing is generated or invented by the workflow.
+#
+#   ANDROID_KEYSTORE_BASE64    the keystore file encoded with:  base64 -w0 nexvora-upload-key.keystore
+#   ANDROID_KEYSTORE_PASSWORD  the keystore (store) password
+#   ANDROID_KEY_PASSWORD       the password of the key alias "nexvora-keystore"
+#
+# The key alias must be `nexvora-keystore` (see android/app/build.gradle).
+on:
+  workflow_dispatch:
+
+jobs:
+  build-release:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    env:
+      ANDROID_KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+      ANDROID_KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+      ANDROID_KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
+    steps:
+      - name: Check that the signing secrets exist
+        run: |
+          missing=0
+          for name in ANDROID_KEYSTORE_BASE64 ANDROID_KEYSTORE_PASSWORD ANDROID_KEY_PASSWORD; do
+            if [ -z "${!name}" ]; then echo "::error::Repository secret $name is not set"; missing=1; fi
+          done
+          exit $missing
+
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: yarn
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - name: Set up Android SDK
+        uses: android-actions/setup-android@v3
+
+      - name: Install SDK components required by android/build.gradle
+        run: |
+          yes | sdkmanager --licenses > /dev/null || true
+          sdkmanager "platform-tools" "platforms;android-36" "build-tools;36.0.0" "ndk;27.1.12297006" "cmake;3.22.1"
+
+      - name: Install JavaScript dependencies
+        env:
+          HUSKY: "0"   # git hooks are not needed in CI
+        run: yarn install --network-timeout 600000
+
+      - name: Restore keystore and signing configuration
+        run: |
+          echo "$ANDROID_KEYSTORE_BASE64" | base64 -d > android/app/nexvora-upload-key.keystore
+          # Secrets are passed through the environment, never echoed.
+          printf 'APP_RELEASE_STORE_PASSWORD=%s\nAPP_RELEASE_KEY_PASSWORD=%s\n' "$ANDROID_KEYSTORE_PASSWORD" "$ANDROID_KEY_PASSWORD" > .env
+
+      - uses: gradle/actions/setup-gradle@v4
+
+      - name: Assemble release APK
+        working-directory: android
+        run: |
+          chmod +x ./gradlew
+          ./gradlew assembleRelease --stacktrace
+
+      - name: Verify the APK signature
+        run: |
+          APKSIGNER="$ANDROID_HOME/build-tools/36.0.0/apksigner"
+          "$APKSIGNER" verify --print-certs android/app/build/outputs/apk/release/app-release.apk
+
+      - name: Remove signing material from the runner
+        if: always()
+        run: rm -f android/app/nexvora-upload-key.keystore .env
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: NexVora-AI-Workspace-release-apk
+          path: android/app/build/outputs/apk/release/app-release.apk
+          if-no-files-found: error

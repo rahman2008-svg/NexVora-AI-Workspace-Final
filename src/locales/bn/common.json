@@ -1,0 +1,1694 @@
+{
+  "common": {
+    "add": "যোগ করুন",
+    "allow": "অনুমতি দিন",
+    "apply": "প্রয়োগ করুন",
+    "back": "পিছনে",
+    "cancel": "বাতিল",
+    "clear": "মুছে ফেলুন",
+    "close": "বন্ধ করুন",
+    "confirm": "নিশ্চিত করুন",
+    "continue": "চালিয়ে যান",
+    "copied": "কপি হয়েছে",
+    "copy": "কপি",
+    "create": "তৈরি করুন",
+    "default": "ডিফল্ট",
+    "delete": "মুছুন",
+    "disable": "বন্ধ করুন",
+    "disabled": "বন্ধ",
+    "dismiss": "সরিয়ে দিন",
+    "done": "সম্পন্ন",
+    "download": "ডাউনলোড",
+    "downloading": "ডাউনলোড হচ্ছে",
+    "edit": "সম্পাদনা",
+    "enable": "চালু করুন",
+    "enabled": "চালু",
+    "error": "ত্রুটি",
+    "export": "এক্সপোর্ট",
+    "import": "ইমপোর্ট",
+    "install": "ইনস্টল",
+    "installed": "ইনস্টল করা আছে",
+    "learn_more": "আরও জানুন",
+    "loading": "লোড হচ্ছে...",
+    "next": "পরবর্তী",
+    "no": "না",
+    "none": "কিছু নয়",
+    "off": "বন্ধ",
+    "ok": "ঠিক আছে",
+    "on": "চালু",
+    "open": "খুলুন",
+    "optional": "ঐচ্ছিক",
+    "refresh": "রিফ্রেশ",
+    "remove": "সরান",
+    "rename": "নাম পরিবর্তন",
+    "required": "আবশ্যক",
+    "reset": "রিসেট",
+    "retry": "আবার চেষ্টা করুন",
+    "save": "সংরক্ষণ",
+    "search": "খুঁজুন",
+    "select": "বাছাই করুন",
+    "selected": "নির্বাচিত",
+    "send": "পাঠান",
+    "settings": "সেটিংস",
+    "share": "শেয়ার",
+    "skip": "এড়িয়ে যান",
+    "stop": "থামান",
+    "success": "সফল",
+    "uninstall": "আনইনস্টল",
+    "unknown": "অজানা",
+    "unknown_error": "অজানা ত্রুটি",
+    "update": "আপডেট",
+    "upload": "আপলোড",
+    "yes": "হ্যাঁ"
+  },
+  "language": {
+    "title": "ভাষা",
+    "search_placeholder": "ভাষা খুঁজুন",
+    "no_results": "\"{{query}}\"-এর সাথে কোনো ভাষা মেলেনি",
+    "changed": "ভাষা পরিবর্তন হয়ে {{language}} হয়েছে"
+  },
+  "settings": {
+    "llm_preference": {
+      "title": "LLM পছন্দ",
+      "description": "এটি সব ওয়ার্কস্পেসে ব্যবহৃত LLM পছন্দ। অন্য LLM প্রোভাইডার বা অন-ডিভাইস মডেল ব্যবহার করতে এটি বদলাতে পারেন।"
+    },
+    "language": {
+      "app_language": "অ্যাপের ভাষা"
+    },
+    "special_tools": {
+      "title": "বিশেষ টুলস",
+      "ask_with_anythingllm": "\"Ask with NexVora AI Workspace\"",
+      "page_title": "বিশেষ টুলস",
+      "added_toast": "লেখা সিলেকশন মেনুতে Ask with NexVora AI Workspace যোগ হয়েছে",
+      "removed_toast": "লেখা সিলেকশন মেনু থেকে Ask with NexVora AI Workspace সরানো হয়েছে",
+      "context_awareness": "কনটেক্সট সচেতনতা",
+      "ask_with_anythingllm_toggle": "Ask with NexVora AI Workspace",
+      "android_only": "শুধু Android",
+      "description_available": "যেকোনো অ্যাপে লেখা সিলেক্ট করলে যে মেনু আসে তাতে \"Ask with NexVora AI Workspace\" যোগ করে। আপনি যা লিখছেন তা মার্জিত, সংক্ষিপ্ত বা ঠিক করতে, অথবা যা পড়ছেন তা সারসংক্ষেপ, ব্যাখ্যা ও গবেষণা করতে এটি ব্যবহার করুন — এখানে আপনার বাছাই করা মডেল দিয়ে।",
+      "description_unavailable": "Android-এ যেকোনো অ্যাপে লেখা সিলেক্ট করলে আসা মেনুতে NexVora AI Workspace দেখা দিতে পারে, আপনার বাছাই করা মডেল দিয়ে লেখা সম্পাদনা বা সারসংক্ষেপ করতে। iOS অ্যাপকে এই সুযোগ দেয় না।",
+      "assistant": "ডিভাইস অ্যাসিস্ট্যান্ট"
+    },
+    "assistant": {
+      "page_title": "ডিভাইস অ্যাসিস্ট্যান্ট",
+      "status_title": "ডিফল্ট অ্যাসিস্ট্যান্ট",
+      "status_on": "NexVora AI Workspace আপনার ডিফল্ট অ্যাসিস্ট্যান্ট",
+      "status_off": "NexVora AI Workspace আপনার ডিফল্ট অ্যাসিস্ট্যান্ট নয়",
+      "set_up": "সেট করুন",
+      "change": "বদলান",
+      "setup_steps": "যে Android সেটিংস খুলবে সেখানে \"Default digital assistant app\"-এ ট্যাপ করে NexVora AI Workspace বেছে নিন। পেজটি কখনো কখনো Apps > Default apps-এর ভেতরে থাকে। শেষ হলে এখানে ফিরে আসুন।",
+      "description": "ফোনের অ্যাসিস্ট্যান্ট জেসচার — সাধারণত হোম বাটন বা নেভিগেশন বারে দীর্ঘ চাপ — দিয়ে যেকোনো অ্যাপের ওপর NexVora AI Workspace খুলুন এবং আপনার বাছাই করা মডেল দিয়ে জিজ্ঞেস করুন, অন-ডিভাইস বা নিজের সার্ভারে। এটি Gemini-র জায়গা নেয়; একই Android সেটিংসে যেকোনো সময় ফিরে যেতে পারবেন।",
+      "description_unavailable": "Android-এ NexVora AI Workspace Gemini-র জায়গায় ফোনের অ্যাসিস্ট্যান্ট হতে পারে, অ্যাসিস্ট্যান্ট জেসচারে যেকোনো অ্যাপের ওপর খোলা যায়। iOS অ্যাপকে Siri বদলাতে দেয় না।",
+      "need_help": "সেটআপে সাহায্য লাগবে?",
+      "circle_to_search_note": "হোম বাটনে দীর্ঘ চাপ দিলে যদি Circle to Search খোলে, তাহলে Android Settings > Display > Navigation bar-এ Circle to Search বন্ধ করুন। এটি চালু থাকলে আপনি যে অ্যাসিস্ট্যান্টই বাছুন, Android ওই জেসচার সবসময় Google-কে দেয়।",
+      "open_settings_failed": "Android সেটিংস খোলা যায়নি",
+      "behavior_title": "অ্যাসিস্ট্যান্ট খুললে",
+      "auto_listen": "শোনা শুরু করুন",
+      "auto_listen_description": "অ্যাসিস্ট্যান্ট চালু করামাত্র মাইক্রোফোন চালু করুন।",
+      "auto_screenshot": "স্ক্রিনশট সংযুক্ত করুন",
+      "auto_screenshot_description": "চালু করার সময় স্ক্রিনের একটি স্ক্রিনশট সংযুক্ত করুন। এর জন্য ছবি দেখতে পারে এমন মডেল এবং Android ডিজিটাল অ্যাসিস্ট্যান্ট সেটিংসে \"Use screenshot\" চালু থাকা দরকার।",
+      "theme_title": "থিম",
+      "theme_description": "অ্যাসিস্ট্যান্ট খোলা থাকাকালীন এর পেছনের অ্যানিমেটেড ব্যাকগ্রাউন্ড।",
+      "animated": "ব্যাকগ্রাউন্ড অ্যানিমেট করুন",
+      "animated_description": "ব্যাকগ্রাউন্ড স্থির ছবি হিসেবে দেখাতে এটি বন্ধ করুন। এতে ব্যাটারি কম খরচ হয় এবং ফোন ঠান্ডা থাকে।",
+      "themes": {
+        "rainbow": "রেনবো",
+        "halftone": "হাফটোন",
+        "terrain": "টেরেন",
+        "painterly": "পেইন্টারলি"
+      }
+    },
+    "about": {
+      "release_notes": "v{{version}}-এর রিলিজ নোট",
+      "star_github": "GitHub-এ স্টার দিন",
+      "join_discord": "Discord-এ যোগ দিন"
+    },
+    "utility": {
+      "title": "ইউটিলিটি",
+      "tool_auto_approvals": "টুলের স্বয়ংক্রিয় অনুমোদন",
+      "clear_temp_files": "অস্থায়ী ফাইল মুছুন",
+      "temp_files_cleared": "অস্থায়ী ফাইল মুছে ফেলা হয়েছে"
+    },
+    "tool_auto_approvals": {
+      "description": "এই টুলগুলো আপনার অনুমোদন না চেয়েই চলে। পরের বার আবার জিজ্ঞেস করাতে একটিকে সরিয়ে দিন বা ট্র্যাশ বাটনে ট্যাপ করুন।",
+      "empty_title": "কোনো স্বয়ংক্রিয়ভাবে অনুমোদিত টুল নেই",
+      "empty_description": "চ্যাটে কোনো টুল অনুমোদন চাইলে \"Always approve this tool\" টিক দিন, তাহলে সেটি এখানে দেখা যাবে।",
+      "approved_since": "স্বয়ংক্রিয়ভাবে অনুমোদিত {{when}}",
+      "remove": "সরান",
+      "remove_label": "{{tool}}-এর স্বয়ংক্রিয় অনুমোদন বন্ধ করুন",
+      "removed_toast": "{{tool}} আবার অনুমোদন চাইবে"
+    },
+    "legal": {
+      "title": "আইনি ও গোপনীয়তা",
+      "terms": "সেবার শর্তাবলি",
+      "privacy": "গোপনীয়তা নীতি"
+    },
+    "reset": {
+      "title": "NexVora AI Workspace রিসেট করুন",
+      "confirm_message": "আপনি কি নিশ্চিত যে NexVora AI Workspace রিসেট করবেন? এতে আপনার সব ওয়ার্কস্পেস, চ্যাট, ইনস্টল করা মডেল ও পছন্দ মুছে যাবে।",
+      "confirm_button": "হ্যাঁ, সবকিছু রিসেট করুন"
+    },
+    "update_failed": "সেটিংটি আপডেট করা যায়নি",
+    "version": {
+      "about": "NexVora AI Workspace সম্পর্কে",
+      "update_available_title": "আপডেট পাওয়া যাচ্ছে",
+      "update_available_message": "সংস্করণ {{version}} পাওয়া যাচ্ছে। অনুগ্রহ করে সর্বশেষ সংস্করণে আপডেট করুন।",
+      "go_to_app_store": "অ্যাপ স্টোরে যান"
+    },
+    "advanced_model_preferences": {
+      "title": "মডেল নির্বাচন",
+      "choose_provider": "একটি LLM প্রোভাইডার বেছে নিন",
+      "llm_model": "LLM মডেল",
+      "provider_settings": "প্রোভাইডার সেটিংস",
+      "show_less": "কম দেখান",
+      "view_more": "আরও দেখুন"
+    },
+    "provider_options": {
+      "base_url": "বেস URL",
+      "base_url_placeholder": "আপনার বেস URL লিখুন (যেমন {{example}})",
+      "api_key": "API কী",
+      "api_key_optional": "API কী (ঐচ্ছিক)",
+      "api_key_placeholder": "আপনার API কী লিখুন",
+      "aws_region": "AWS রিজিয়ন",
+      "select_region": "একটি রিজিয়ন বাছুন",
+      "choose_region": "আপনার AWS রিজিয়ন বেছে নিন",
+      "search_region": "খুঁজুন বা রিজিয়ন কোড লিখুন",
+      "use_region": "\"{{region}}\" ব্যবহার করুন",
+      "model_selection": "মডেল নির্বাচন",
+      "select_model": "একটি মডেল বাছুন",
+      "choose_model": "আপনার মডেল বেছে নিন",
+      "search_models": "মডেল খুঁজুন",
+      "fetching_models": "মডেল আনা হচ্ছে...",
+      "model_placeholder": "আপনার মডেল লিখুন (যেমন {{example}})",
+      "models_load_failed": "এই প্রোভাইডার থেকে মডেল লোড করা যায়নি। আপনার ক্রেডেনশিয়াল দেখুন অথবা হাতে মডেলের নাম লিখুন।",
+      "no_tool_calls": "এই মডেলে <bold>টুল কলিং সমর্থন নেই</bold> বলে শনাক্ত হয়েছে। শুধু সাধারণ চ্যাট ও RAG সমর্থিত হবে"
+    }
+  },
+  "chat": {
+    "error_loading_provider": "LLM প্রোভাইডার লোড করতে ত্রুটি",
+    "error_loading_thread": "ওয়ার্কস্পেস থ্রেড লোড করতে ত্রুটি",
+    "unknown_error": "অজানা ত্রুটি",
+    "loading_history": "চ্যাট ইতিহাস লোড হচ্ছে...",
+    "greetings": {
+      "working_on": "আমরা কী নিয়ে কাজ করছি?",
+      "noodle": "চলুন কিছু নিয়ে ভাবা যাক।",
+      "on_your_mind": "আপনার মনে কী আছে?",
+      "where_to_start": "কোথা থেকে শুরু করব?",
+      "ready": "আপনি প্রস্তুত হলেই আমি প্রস্তুত।",
+      "think_it_through": "চলুন ভালো করে ভেবে দেখি।"
+    },
+    "suggestions": {
+      "hello": "হ্যালো, আপনি আমাকে কীভাবে সাহায্য করতে পারেন?",
+      "research": "{{city}}, {{region}}-এ করার মতো মজার কিছু জিনিস অনলাইনে খুঁজে দেখুন",
+      "calendar_monday": "সোমবারের জন্য আমার ক্যালেন্ডারে কী আছে?",
+      "calendar_tomorrow": "আগামীকালের জন্য আমার ক্যালেন্ডারে কী আছে?",
+      "calendar_today": "আজকের জন্য আমার ক্যালেন্ডারে কী আছে?",
+      "email": "লোকাল AI এজেন্টের সুবিধা নিয়ে John Doe-কে একটি সেলস ইমেইলের খসড়া লিখুন",
+      "summarize_example": "paulgraham.com/foundermode.html-এর সারসংক্ষেপ করুন",
+      "summarize_file": "{{name}}-এর সারসংক্ষেপ করুন",
+      "summarize_websites_one": "এই ওয়েবসাইটের সারসংক্ষেপ করুন",
+      "summarize_websites_other": "এই ওয়েবসাইটগুলোর সারসংক্ষেপ করুন",
+      "summarize_documents_one": "এই ডকুমেন্টের সারসংক্ষেপ করুন",
+      "summarize_documents_other": "এই ডকুমেন্টগুলোর সারসংক্ষেপ করুন",
+      "explain_images_one": "এই ছবিটি ব্যাখ্যা করুন",
+      "explain_images_other": "এই ছবিগুলো ব্যাখ্যা করুন"
+    },
+    "citations": {
+      "title": "সাইটেশন",
+      "score": "স্কোর: {{score}}",
+      "sources": "সূত্র",
+      "calendar_untitled": "(শিরোনামহীন)",
+      "calendar_open_label": "আপনার ক্যালেন্ডারে {{title}} খুলুন",
+      "calendar_open_failed": "কোনো ক্যালেন্ডার অ্যাপে ইভেন্টটি খোলা যায়নি"
+    },
+    "message_actions": {
+      "copied": "ক্লিপবোর্ডে কপি হয়েছে",
+      "retry_failed": "এই বার্তাটি আবার পাঠানো যায়নি",
+      "delete_failed": "এই উত্তরটি মোছা যায়নি",
+      "fork_failed": "থ্রেড ফর্ক করা যায়নি: {{error}}",
+      "fork_name": "{{name}}-এর কপি",
+      "copy_title": "বার্তা কপি করুন",
+      "copy_description": "লেখাটি ক্লিপবোর্ডে কপি করুন",
+      "retry_wait": "বর্তমান উত্তর শেষ হওয়া পর্যন্ত অপেক্ষা করুন",
+      "retry_description": "এই আদান-প্রদান সরিয়ে প্রম্পটটি আবার পাঠান",
+      "fork_title": "থ্রেড ফর্ক করুন",
+      "fork_remote_unavailable": "রিমোট থ্রেডের জন্য উপলব্ধ নয়",
+      "fork_description": "এই কথোপকথনের কপিসহ একটি নতুন থ্রেড শুরু করুন",
+      "delete_title": "উত্তর মুছুন",
+      "delete_description": "এই বার্তা ও এর উত্তর থ্রেড থেকে সরান"
+    },
+    "activity": {
+      "running": "চলছে",
+      "waiting_approval_to_run": "{{tool}} চালাতে অনুমোদনের অপেক্ষা",
+      "approved_tool": "{{tool}} অনুমোদিত",
+      "rejected_tool": "{{tool}} প্রত্যাখ্যাত",
+      "waiting_for_you": "আপনার অপেক্ষায়",
+      "tool_approved": "টুল কল অনুমোদিত হয়েছে",
+      "tool_rejected": "টুল কল প্রত্যাখ্যাত হয়েছে",
+      "thinking": "ভাবছি...",
+      "waiting_your_approval": "আপনার অনুমোদনের অপেক্ষায়",
+      "calling_tool": "{{tool}} কল করছি",
+      "working": "কাজ করছি...",
+      "worked_for": "{{duration}} কাজ করেছে",
+      "thought_for": "{{duration}} ভেবেছে",
+      "thoughts": "চিন্তা"
+    },
+    "file_download": {
+      "saved_to": "{{filename}} {{location}}-এ সংরক্ষিত হয়েছে",
+      "save_failed": "ফাইল সংরক্ষণ করা যায়নি: {{error}}",
+      "share_failed": "শেয়ার শিট খোলা যায়নি: {{error}}",
+      "missing": "আর এই ডিভাইসে নেই",
+      "missing_label": "{{title}}, ফাইলটি আর পাওয়া যাচ্ছে না",
+      "download_label": "{{title}} ডাউনলোড করুন",
+      "share_label": "{{title}} শেয়ার করুন",
+      "unknown_file": "অজানা ফাইল",
+      "saving": "সংরক্ষণ হচ্ছে...",
+      "saved": "সংরক্ষিত"
+    },
+    "scheduled_job_card": {
+      "open_label": "নির্ধারিত কাজ {{name}} খুলুন",
+      "subtitle": "নির্ধারিত কাজ · {{schedule}}",
+      "view": "দেখুন"
+    },
+    "reminder_card": {
+      "today": "আজ",
+      "tomorrow": "আগামীকাল",
+      "passed": "পেরিয়ে গেছে",
+      "view": "দেখুন",
+      "open_label": "{{label}} খুলুন, {{when}}",
+      "open_clock_failed": "ঘড়ি অ্যাপ খোলা যায়নি",
+      "open_calendar_failed": "আপনার ক্যালেন্ডারে ইভেন্টটি খোলা যায়নি",
+      "duration": {
+        "hours_one": "{{count}} ঘণ্টা",
+        "hours_other": "{{count}} ঘণ্টা",
+        "minutes_one": "{{count}} মিনিট",
+        "minutes_other": "{{count}} মিনিট",
+        "seconds_one": "{{count}} সেকেন্ড",
+        "seconds_other": "{{count}} সেকেন্ড"
+      }
+    },
+    "draft": {
+      "open": "খুলুন",
+      "send_with": "যার মাধ্যমে পাঠাবেন",
+      "more_apps": "আরও অ্যাপ",
+      "open_in_failed": "{{app}} খোলা যায়নি"
+    },
+    "text_draft": {
+      "new_message": "নতুন বার্তা",
+      "open_label": "{{recipient}}-কে টেক্সট বার্তার খসড়া খুলুন",
+      "no_number_hint": "কোনো ফোন নম্বর দেওয়া হয়নি — অ্যাপ জিজ্ঞেস করবে কাকে পাঠাবেন।",
+      "copy": "বার্তা কপি করুন",
+      "copied": "বার্তা কপি হয়েছে",
+      "share_title": "যার মাধ্যমে বার্তা পাঠাবেন",
+      "open_failed": "কোনো মেসেজিং অ্যাপ খোলা যায়নি"
+    },
+    "email_draft": {
+      "new_email": "নতুন ইমেইল",
+      "no_subject": "(বিষয় নেই)",
+      "no_recipient": "এখনো কোনো প্রাপক নেই",
+      "open_label": "ইমেইলের খসড়া {{subject}} খুলুন",
+      "cc": "Cc: {{addresses}}",
+      "no_recipient_hint": "কোনো ইমেইল ঠিকানা দেওয়া হয়নি — আপনার মেইল অ্যাপে এটি কার জন্য তা যোগ করুন।",
+      "copy": "ইমেইল কপি করুন",
+      "copied": "ইমেইল কপি হয়েছে",
+      "share_title": "যার মাধ্যমে ইমেইল পাঠাবেন",
+      "open_failed": "কোনো মেইল অ্যাপ খোলা যায়নি"
+    },
+    "calendar_event": {
+      "open_label": "আপনার ক্যালেন্ডারে {{title}} যোগ করুন",
+      "all_day": "সারাদিন",
+      "open_failed": "কোনো ক্যালেন্ডার অ্যাপ খোলা যায়নি",
+      "saved": "আপনার ক্যালেন্ডারে যোগ হয়েছে",
+      "permission_denied": "ইভেন্ট যোগ করতে সেটিংসে NexVora AI Workspace-এর ক্যালেন্ডার অ্যাক্সেস অনুমোদন করুন।",
+      "add_with": "যার মাধ্যমে যোগ করবেন",
+      "save_ics": ".ics ফাইল সংরক্ষণ করুন",
+      "save_failed": "ইভেন্ট ফাইল সংরক্ষণ করা যায়নি",
+      "no_app_hint": "কোনো ক্যালেন্ডার অ্যাপ পাওয়া যায়নি — ইভেন্টটি .ics ফাইল হিসেবে সংরক্ষণ করুন, যেকোনো জায়গায় ইমপোর্ট করা যাবে।",
+      "reminders_hint": "ক্যালেন্ডার অ্যাপগুলো নিজেদের রিমাইন্ডার ঠিক করে — .ics ফাইল এগুলো ধরে রাখে।",
+      "invitees": "আমন্ত্রণ: {{addresses}}",
+      "reminders": "রিমাইন্ডার: {{times}}",
+      "reminder_before": "{{time}} আগে",
+      "reminder_at_start": "শুরুর সময়ে",
+      "repeat": {
+        "daily_one": "প্রতিদিন",
+        "daily_other": "প্রতি {{count}} দিনে",
+        "weekly_one": "প্রতি সপ্তাহে",
+        "weekly_other": "প্রতি {{count}} সপ্তাহে",
+        "monthly_one": "প্রতি মাসে",
+        "monthly_other": "প্রতি {{count}} মাসে",
+        "yearly_one": "প্রতি বছর",
+        "yearly_other": "প্রতি {{count}} বছরে",
+        "on_days": "{{repeat}}, {{days}}-এ",
+        "until": "{{repeat}}, {{date}} পর্যন্ত",
+        "times_one": "{{repeat}}, একবার",
+        "times_other": "{{repeat}}, {{count}} বার"
+      }
+    },
+    "metrics": {
+      "tokens_one": "{{value}}টি টোকেন",
+      "tokens_other": "{{value}}টি টোকেন"
+    },
+    "tool_approval": {
+      "needs_approval": "আপনার অনুমোদন দরকার",
+      "always_approve": "এই টুলটি সবসময় অনুমোদন করুন",
+      "show_details": "বিবরণ দেখান",
+      "hide_details": "বিবরণ লুকান",
+      "approve": "অনুমোদন",
+      "reject": "প্রত্যাখ্যান"
+    },
+    "attachments": {
+      "attach_files": "ফাইল সংযুক্ত করুন",
+      "gallery": "গ্যালারি",
+      "take_photo": "ছবি তুলুন",
+      "add_attachment": "সংযুক্তি যোগ করুন",
+      "hint_embed": "ফাইলগুলো ভাগ করে এমবেড করা হয়, যাতে আপনার অন-ডিভাইস মডেল সেগুলোতে খুঁজতে পারে।",
+      "hint_full": "এই ওয়ার্কস্পেসের প্রতিটি বার্তার সাথে ফাইলগুলো আপনার মডেলকে সম্পূর্ণ পাঠানো হয়।",
+      "max_reached": "একটি প্রম্পটের জন্য সংযুক্তির সর্বোচ্চ সংখ্যায় পৌঁছে গেছেন।",
+      "downloading_image_support": "ছবি সমর্থন ডাউনলোড হচ্ছে... {{progress}}%",
+      "cancel_download": "ডাউনলোড বাতিল",
+      "download_image_support": "ছবি সমর্থন ডাউনলোড করুন",
+      "needs_download_tap": "এই মডেল ছবি দেখতে পারে, কিন্তু একটি অতিরিক্ত ডাউনলোড দরকার। ডাউনলোড করতে ট্যাপ করুন ({{size}})।",
+      "download_failed": "ডাউনলোড ব্যর্থ হয়েছে। আবার চেষ্টা করতে ট্যাপ করুন।"
+    },
+    "prompt_input": {
+      "placeholder": "আপনার প্রম্পট লিখুন",
+      "select_model_first": "আগে একটি মডেল বাছুন",
+      "stop_generating": "তৈরি করা থামান",
+      "stop_recording": "রেকর্ডিং থামান",
+      "voice_input": "ভয়েস ইনপুট",
+      "send_prompt": "প্রম্পট পাঠান"
+    },
+    "files": {
+      "title": "ফাইল",
+      "empty": "এই ওয়ার্কস্পেসে কোনো ফাইল নেই",
+      "error_loading": "ফাইল লোড করতে ত্রুটি",
+      "deleted_one": "{{count}}টি ফাইল সফলভাবে মুছে ফেলা হয়েছে!",
+      "deleted_other": "{{count}}টি ফাইল সফলভাবে মুছে ফেলা হয়েছে!",
+      "select_all": "সব বাছুন",
+      "deselect_all": "সব বাছাই বাতিল",
+      "delete_selected": "নির্বাচিত ফাইল মুছুন",
+      "embedded": "এমবেড করা · প্রতিটি থ্রেডে খোঁজা হয়",
+      "full_every_thread": "সম্পূর্ণ পাঠানো হয় · প্রতিটি থ্রেডে",
+      "full_this_thread": "সম্পূর্ণ পাঠানো হয় · এই থ্রেডে",
+      "full_another_thread": "সম্পূর্ণ পাঠানো হয় · অন্য থ্রেডে"
+    },
+    "history_cleared": "চ্যাট ইতিহাস মুছে ফেলা হয়েছে",
+    "tools": {
+      "title": "টুলস",
+      "group_status": "{{total}}-এর মধ্যে {{enabled}}টি চালু",
+      "app_connections": "অ্যাপ সংযোগ",
+      "needs_cloud_model": "{{description}} ক্লাউড মডেল লাগবে।",
+      "unavailable_on_device": "ধূসর টুলগুলো অন-ডিভাইস মডেলে পাওয়া যায় না। সেগুলো ব্যবহার করতে ক্লাউড প্রোভাইডারে যান।"
+    },
+    "remote_unreachable": {
+      "title": "রিমোট সার্ভারে পৌঁছানো যাচ্ছে না",
+      "message": "এই মুহূর্তে আপনার ইনস্ট্যান্সে পৌঁছানো যাচ্ছে না। আপনি কি এই কথোপকথন লোকালি চালিয়ে যেতে চান?",
+      "cancel": "না, বাতিল",
+      "continue": "হ্যাঁ, লোকালি চালিয়ে যান",
+      "not_sent": "রিমোট সার্ভারে পৌঁছানো যাচ্ছে না — চ্যাট পাঠানো হয়নি।"
+    },
+    "errors": {
+      "processing": "চ্যাট প্রসেস করতে ত্রুটি",
+      "timed_out": "উত্তর পাওয়ার আগেই অনুরোধের সময় শেষ হয়ে গেছে। সংযোগ হারিয়ে থাকতে পারে।",
+      "show_more": "আরও দেখান",
+      "show_less": "কম দেখান"
+    },
+    "status": {
+      "recalling_notes": "ওয়ার্কস্পেস নোট মনে করা হচ্ছে"
+    }
+  },
+  "quick_context": {
+    "modes": {
+      "summarize": "সারসংক্ষেপ"
+    },
+    "actions": {
+      "polish": "মার্জিত করুন",
+      "shorten": "ছোট করুন",
+      "fix_grammar": "ব্যাকরণ ঠিক করুন",
+      "more_formal": "আরও আনুষ্ঠানিক",
+      "summarize": "সারসংক্ষেপ",
+      "key_points": "মূল পয়েন্ট",
+      "explain": "ব্যাখ্যা করুন",
+      "research": "গবেষণা"
+    },
+    "could_not_start": "কুইক অ্যাকশন চালু করা যায়নি",
+    "dismiss": "সরিয়ে দিন",
+    "setup_needed": "সিলেকশন মেনু থেকে ব্যবহার করতে NexVora AI Workspace-এর সেটআপ শেষ করুন।",
+    "open_anythingllm": "NexVora AI Workspace খুলুন",
+    "select_model": "শুরু করতে উপরে একটি মডেল বেছে নিন।",
+    "copied_paste": "কপি হয়েছে — আপনার সিলেকশনের ওপর পেস্ট করুন",
+    "copy_and_close": "কপি করে বন্ধ করুন",
+    "open_in_app": "অ্যাপে খুলুন",
+    "placeholders": {
+      "edit_new": "এই লেখাটি কীভাবে বদলাতে চান?",
+      "edit_started": "লেখাটি আরও সমন্বয় করুন…",
+      "summarize_new": "এই লেখা সম্পর্কে যেকোনো কিছু জিজ্ঞেস করুন…",
+      "summarize_started": "আরও প্রশ্ন করুন…"
+    }
+  },
+  "assistant": {
+    "could_not_start": "অ্যাসিস্ট্যান্ট চালু করা যায়নি",
+    "dismiss": "সরিয়ে দিন",
+    "setup_needed": "অ্যাসিস্ট্যান্ট হিসেবে ব্যবহার করতে NexVora AI Workspace-এর সেটআপ শেষ করুন।",
+    "open_anythingllm": "NexVora AI Workspace খুলুন",
+    "select_model": "শুরু করতে উপরে একটি মডেল বেছে নিন।",
+    "placeholder": "NexVora AI Workspace-কে জিজ্ঞেস করুন",
+    "placeholder_followup": "আরও কিছু জিজ্ঞেস করুন…",
+    "listening": "শুনছি…",
+    "share_screen": "স্ক্রিন শেয়ার",
+    "screen_disabled": "স্ক্রিন শেয়ার করতে Android ডিজিটাল অ্যাসিস্ট্যান্ট সেটিংসে \"স্ক্রিনশট ব্যবহার করুন\" চালু করুন।",
+    "screen_blocked": "এই অ্যাপ স্ক্রিনশট নিতে দেয় না।",
+    "screen_unavailable": "স্ক্রিন ক্যাপচার করা যায়নি।",
+    "needs_vision": "স্ক্রিন শেয়ার করতে এমন মডেল লাগবে যা ছবি দেখতে পারে। {{reason}}"
+  },
+  "attachments": {
+    "processing": "প্রসেস হচ্ছে…",
+    "image": "ছবি",
+    "file_type_generic": "ফাইল",
+    "name_processing": "{{name}}, প্রসেস হচ্ছে",
+    "remove_named": "{{name}} সরান",
+    "more_images_one": "আরও {{count}}টি ছবি",
+    "more_images_other": "আরও {{count}}টি ছবি",
+    "attached_image": "সংযুক্ত ছবি",
+    "image_position": "{{total}}-এর মধ্যে {{current}}",
+    "close_image_preview": "ছবির প্রিভিউ বন্ধ করুন",
+    "remove_image": "ছবি সরান"
+  },
+  "errors": {
+    "boundary": {
+      "details": "ত্রুটির বিবরণ",
+      "details_copied": "ত্রুটির বিবরণ কপি হয়েছে",
+      "something_went_wrong": "কিছু একটা ভুল হয়েছে",
+      "go_home": "হোমে যান",
+      "message_failed": "একটি ত্রুটির কারণে এই বার্তাটি দেখানো যায়নি।",
+      "hide_details": "ত্রুটির বিবরণ লুকান",
+      "show_details": "ত্রুটির বিবরণ দেখান"
+    }
+  },
+  "highlights": {
+    "play_video": "ভিডিও চালান",
+    "pause_video": "ভিডিও থামান",
+    "whats_new": "নতুন কী",
+    "tour_title": "NexVora AI Workspace কী কী করতে পারে",
+    "device_assistant": {
+      "title": "Gemini-র জায়গায় নিজের AI ব্যবহার করুন",
+      "body": "NexVora AI Workspace-কে ফোনের অ্যাসিস্ট্যান্ট বানান এবং Gemini-র মতো একই জেসচারে যেকোনো অ্যাপ থেকে খুলুন। স্ক্রিনে যা আছে তা নিয়ে জিজ্ঞেস করুন — আপনার বাছাই করা মডেল উত্তর দেবে।",
+      "cta": "ডিভাইস অ্যাসিস্ট্যান্ট সেট করুন"
+    },
+    "quick_actions": {
+      "title": "যেকোনো জায়গা থেকে NexVora AI Workspace-কে জিজ্ঞেস করুন",
+      "body": "যেকোনো অ্যাপে লেখা সিলেক্ট করে \"Ask with NexVora AI Workspace\"-এ ট্যাপ করুন — আপনার মডেল দিয়ে মার্জিত, সংক্ষিপ্ত, সারসংক্ষেপ বা ব্যাখ্যা করুন।"
+    },
+    "share_sheet": {
+      "title": "যেকোনো কিছু চ্যাটে শেয়ার করুন",
+      "body": "যেকোনো অ্যাপ থেকে ছবি, ডকুমেন্ট ও লিংক সরাসরি NexVora AI Workspace-এ নতুন থ্রেড হিসেবে পাঠান — সংযুক্ত অবস্থায়, জিজ্ঞেস করার জন্য প্রস্তুত।"
+    },
+    "scheduled_jobs": {
+      "title": "নির্ধারিত কাজ",
+      "body": "পুনরাবৃত্ত কাজ চান — সকালের সংবাদ সংক্ষেপ, সাপ্তাহিক চেক-ইন — এটি নির্ধারিত সময়ে চলবে, অ্যাপ বন্ধ থাকলেও।"
+    }
+  },
+  "new_workspace": {
+    "default_name": "নতুন ওয়ার্কস্পেস",
+    "title": "নতুন ওয়ার্কস্পেস",
+    "description": "আপনার ওয়ার্কস্পেসের একটি নাম দিন। পরে বদলাতে পারবেন।",
+    "placeholder": "যেমন: গবেষণা, কাজ, ব্যক্তিগত"
+  },
+  "files": {
+    "types": {
+      "text_file": "টেক্সট ফাইল",
+      "spreadsheet": "স্প্রেডশিট",
+      "pdf_document": "PDF ডকুমেন্ট",
+      "word_document": "Word ডকুমেন্ট",
+      "file": "ফাইল"
+    },
+    "location": {
+      "downloads": "ডাউনলোডস",
+      "ios_exports": "Files > On My iPhone > NexVora AI Workspace > Exports",
+      "open_downloads": "ডাউনলোডসে খুলুন",
+      "open_files": "Files-এ খুলুন"
+    },
+    "storage_permission": {
+      "title": "ডাউনলোডসে সংরক্ষণ",
+      "message": "ফাইলটি আপনার ডাউনলোডস ফোল্ডারে সংরক্ষণ করতে NexVora AI Workspace-এর স্টোরেজ অ্যাক্সেস দরকার।"
+    },
+    "export": {
+      "text_label": "টেক্সট",
+      "txt_description": "সাধারণ টেক্সট ট্রান্সক্রিপ্ট",
+      "md_description": "নোট অ্যাপের জন্য ফরম্যাট করা ট্রান্সক্রিপ্ট",
+      "json_description": "মডেল ও মেট্রিক্সসহ বার্তা",
+      "pdf_description": "ফরম্যাট করা ডকুমেন্ট"
+    }
+  },
+  "misc": {
+    "new_thread": "নতুন থ্রেড",
+    "remote_thread_create_failed": "আপনার রিমোট ওয়ার্কস্পেসে থ্রেড তৈরি করা যায়নি। সংযোগ দেখে আবার চেষ্টা করুন।",
+    "job_run": {
+      "failed": "কাজ ব্যর্থ হয়েছে",
+      "timed_out": "কাজটি অনেক বেশি সময় নেওয়ায় থামানো হয়েছে",
+      "cancelled": "আপনি এই রান থামিয়েছেন",
+      "app_closed": "কাজ শেষ হওয়ার আগেই অ্যাপ বন্ধ হয়ে গিয়েছিল"
+    },
+    "validation": {
+      "memory_not_text": "স্মৃতি অবশ্যই লেখা হতে হবে",
+      "memory_too_short": "স্মৃতি খুব ছোট",
+      "memory_too_long_one": "স্মৃতি সর্বোচ্চ {{count}}টি অক্ষরের হতে হবে",
+      "memory_too_long_other": "স্মৃতি সর্বোচ্চ {{count}}টি অক্ষরের হতে হবে",
+      "job_name_required": "কাজটির একটি নাম দিন",
+      "job_name_too_long_one": "নাম সর্বোচ্চ {{count}}টি অক্ষরের হতে হবে",
+      "job_name_too_long_other": "নাম সর্বোচ্চ {{count}}টি অক্ষরের হতে হবে",
+      "job_prompt_required": "কাজটি যে প্রম্পট চালাবে তা লিখুন",
+      "job_prompt_too_long_one": "প্রম্পট সর্বোচ্চ {{count}}টি অক্ষরের হতে হবে",
+      "job_prompt_too_long_other": "প্রম্পট সর্বোচ্চ {{count}}টি অক্ষরের হতে হবে",
+      "job_schedule_invalid": "সময়সূচিটি একটি বৈধ cron এক্সপ্রেশন নয়",
+      "job_tools_not_list": "টুলস অবশ্যই একটি তালিকা হতে হবে",
+      "name_not_string": "নাম অবশ্যই লেখা হতে হবে",
+      "name_required": "নাম আবশ্যক",
+      "name_too_short_one": "নাম কমপক্ষে {{count}}টি অক্ষরের হতে হবে",
+      "name_too_short_other": "নাম কমপক্ষে {{count}}টি অক্ষরের হতে হবে",
+      "name_too_long_one": "নাম {{count}}টি অক্ষরের কম হতে হবে",
+      "name_too_long_other": "নাম {{count}}টি অক্ষরের কম হতে হবে",
+      "system_prompt_not_string": "সিস্টেম প্রম্পট অবশ্যই লেখা হতে হবে",
+      "system_prompt_required": "সিস্টেম প্রম্পট আবশ্যক",
+      "system_prompt_too_short_one": "সিস্টেম প্রম্পট কমপক্ষে {{count}}টি অক্ষরের হতে হবে",
+      "system_prompt_too_short_other": "সিস্টেম প্রম্পট কমপক্ষে {{count}}টি অক্ষরের হতে হবে",
+      "system_prompt_too_long_one": "সিস্টেম প্রম্পট {{count}}টি অক্ষরের কম হতে হবে",
+      "system_prompt_too_long_other": "সিস্টেম প্রম্পট {{count}}টি অক্ষরের কম হতে হবে",
+      "temperature_not_number": "টেম্পারেচার অবশ্যই সংখ্যা হতে হবে",
+      "temperature_range": "টেম্পারেচার {{min}} ও {{max}}-এর মধ্যে হতে হবে",
+      "context_length_not_number": "কনটেক্সট দৈর্ঘ্য অবশ্যই সংখ্যা হতে হবে",
+      "context_length_min": "কনটেক্সট দৈর্ঘ্য {{min}}-এর বেশি হতে হবে",
+      "max_tool_calls_not_integer": "টুল কলের সীমা অবশ্যই পূর্ণসংখ্যা হতে হবে",
+      "max_tool_calls_min": "টুল কলের সীমা ঋণাত্মক হতে পারে না"
+    }
+  },
+  "tools": {
+    "groups": {
+      "create_files": {
+        "name": "ফাইল তৈরি",
+        "description": "অ্যাসিস্ট্যান্টকে এমন ডকুমেন্ট লিখতে দিন যা আপনি ডাউনলোড ও শেয়ার করতে পারবেন।",
+        "note": "অ্যাসিস্ট্যান্টকে এমন ডকুমেন্ট লিখতে দিন যা আপনি ডাউনলোড ও শেয়ার করতে পারবেন। সেটিংসে অস্থায়ী ফাইল মুছে না দেওয়া পর্যন্ত ফাইলগুলো এই ডিভাইসে থাকে।"
+      },
+      "calendar": {
+        "name": "ক্যালেন্ডার",
+        "description": "অ্যাসিস্ট্যান্টকে আপনার ক্যালেন্ডারে ইভেন্ট যোগ করতে এবং তাতে কী আছে তা পড়তে দিন।",
+        "note": "অ্যাসিস্ট্যান্টের খসড়া করা ইভেন্ট আপনার ক্যালেন্ডার অ্যাপে খোলে, আপনি সংরক্ষণ করবেন। ক্যালেন্ডার পড়তে ক্যালেন্ডার অ্যাক্সেস লাগে, যা চালু করার সময় চাওয়া হয়।"
+      }
+    },
+    "reranker": {
+      "download_required_title": "ডাউনলোড প্রয়োজন",
+      "download_required_message": "বুদ্ধিমান টুল নির্বাচনের জন্য একটি ছোট মডেল ডাউনলোড লাগবে ({{size}})। আপনি মোবাইল ডেটায় আছেন। চালিয়ে যাবেন?",
+      "status_downloading": "টুল নির্বাচনের মডেল ডাউনলোড হচ্ছে",
+      "status_selecting": "সেরা টুল বাছাই করা হচ্ছে"
+    },
+    "calendar_event_creation": {
+      "name": "ইভেন্ট তৈরি",
+      "description": "এমন ইভেন্টের খসড়া করুন যা এক ট্যাপে আপনার ক্যালেন্ডারে যোগ করা যায়।",
+      "status_preparing": "ক্যালেন্ডার ইভেন্ট \"{{title}}\" প্রস্তুত হচ্ছে"
+    },
+    "calendar_event_reading": {
+      "name": "ক্যালেন্ডার পড়া",
+      "description": "অ্যাসিস্ট্যান্টকে আপনার ক্যালেন্ডারের ইভেন্ট দেখতে দিন।",
+      "permission_denied": "ক্যালেন্ডার অ্যাক্সেসের অনুমতি দেওয়া হয়নি। আপনার ক্যালেন্ডার পড়তে ফোনের সেটিংসে NexVora AI Workspace-এর জন্য এটি চালু করুন।",
+      "status_date": "{{date}}-এর জন্য আপনার ক্যালেন্ডার পড়া হচ্ছে",
+      "status_today": "আজকের জন্য আপনার ক্যালেন্ডার পড়া হচ্ছে",
+      "status_tomorrow": "আগামীকালের জন্য আপনার ক্যালেন্ডার পড়া হচ্ছে",
+      "status_this_week": "এই সপ্তাহের জন্য আপনার ক্যালেন্ডার পড়া হচ্ছে",
+      "status_next_week": "আগামী সপ্তাহের জন্য আপনার ক্যালেন্ডার পড়া হচ্ছে",
+      "status_this_month": "এই মাসের জন্য আপনার ক্যালেন্ডার পড়া হচ্ছে",
+      "status_next_month": "আগামী মাসের জন্য আপনার ক্যালেন্ডার পড়া হচ্ছে"
+    },
+    "create_files": {
+      "status_creating": "{{name}} তৈরি হচ্ছে",
+      "status_created": "{{name}} তৈরি হয়েছে"
+    },
+    "create_docx_file": {
+      "name": "Word ডকুমেন্ট",
+      "description": "মার্কডাউন থেকে থিম ও ঐচ্ছিক শিরোনাম পৃষ্ঠাসহ স্টাইল করা .docx লিখুন।",
+      "status_creating": "Word ডকুমেন্ট \"{{name}}\" তৈরি হচ্ছে"
+    },
+    "create_pdf_file": {
+      "name": "PDF ডকুমেন্ট",
+      "description": "মার্কডাউন বা সাধারণ লেখাকে ফরম্যাট করা PDF-এ রূপান্তর করুন।",
+      "status_creating": "PDF \"{{name}}\" তৈরি হচ্ছে"
+    },
+    "create_text_file": {
+      "name": "টেক্সট, Markdown ও CSV",
+      "description": "কথোপকথন থেকে .txt, .md, .csv ও .json ফাইল লিখুন।"
+    },
+    "create_pptx": {
+      "name": "PowerPoint উপস্থাপনা",
+      "description": "থিমযুক্ত .pptx ডেক পরিকল্পনা করে একটি একটি সেকশন করে বানান।",
+      "status_planning_one": "উপস্থাপনা \"{{title}}\" পরিকল্পনা হচ্ছে — {{count}}টি সেকশন, {{theme}} থিম",
+      "status_planning_other": "উপস্থাপনা \"{{title}}\" পরিকল্পনা হচ্ছে — {{count}}টি সেকশন, {{theme}} থিম",
+      "approval_description_one": "{{count}}টি সেকশনসহ PowerPoint উপস্থাপনা \"{{title}}\" তৈরি করবেন? প্রতিটি সেকশন বানাতে একটি মডেল কল লাগে।",
+      "approval_description_other": "{{count}}টি সেকশনসহ PowerPoint উপস্থাপনা \"{{title}}\" তৈরি করবেন? প্রতিটি সেকশন বানাতে একটি মডেল কল লাগে।",
+      "status_not_approved": "উপস্থাপনা অনুমোদিত হয়নি",
+      "status_building_section": "[{{current}}/{{total}}] সেকশন \"{{title}}\" তৈরি হচ্ছে",
+      "status_section_complete_one": "[{{current}}/{{total}}] সেকশন \"{{title}}\" সম্পূর্ণ — {{count}}টি স্লাইড",
+      "status_section_complete_other": "[{{current}}/{{total}}] সেকশন \"{{title}}\" সম্পূর্ণ — {{count}}টি স্লাইড",
+      "status_section_complete_from_outline_one": "[{{current}}/{{total}}] সেকশন \"{{title}}\" সম্পূর্ণ — {{count}}টি স্লাইড (রূপরেখা থেকে)",
+      "status_section_complete_from_outline_other": "[{{current}}/{{total}}] সেকশন \"{{title}}\" সম্পূর্ণ — {{count}}টি স্লাইড (রূপরেখা থেকে)",
+      "status_assembling_one": "ডেক জোড়া লাগানো হচ্ছে — {{count}}টি স্লাইড",
+      "status_assembling_other": "ডেক জোড়া লাগানো হচ্ছে — {{count}}টি স্লাইড"
+    },
+    "create_scheduled_job": {
+      "name": "নির্ধারিত কাজ তৈরি",
+      "description": "আপনার অনুমোদনের পর অ্যাসিস্ট্যান্টকে কথোপকথন থেকে একটি পুনরাবৃত্ত কাজ সেট করতে দিন।",
+      "status_asking": "\"{{name}}\" নির্ধারণের অনুমতি চাওয়া হচ্ছে ({{when}})",
+      "approval_tools_one": "নির্ধারিত কাজ \"{{name}}\" তৈরি করবেন? এটি {{when}} {{count}}টি টুল ব্যবহার করে চলবে।",
+      "approval_tools_other": "নির্ধারিত কাজ \"{{name}}\" তৈরি করবেন? এটি {{when}} {{count}}টি টুল ব্যবহার করে চলবে।",
+      "approval_tools_notify_one": "নির্ধারিত কাজ \"{{name}}\" তৈরি করবেন? এটি {{when}} {{count}}টি টুল ব্যবহার করে চলবে এবং শেষ হলে আপনাকে জানাবে।",
+      "approval_tools_notify_other": "নির্ধারিত কাজ \"{{name}}\" তৈরি করবেন? এটি {{when}} {{count}}টি টুল ব্যবহার করে চলবে এবং শেষ হলে আপনাকে জানাবে।",
+      "approval_no_tools": "নির্ধারিত কাজ \"{{name}}\" তৈরি করবেন? এটি {{when}} কোনো টুল ছাড়া চলবে।",
+      "approval_no_tools_notify": "নির্ধারিত কাজ \"{{name}}\" তৈরি করবেন? এটি {{when}} কোনো টুল ছাড়া চলবে এবং শেষ হলে আপনাকে জানাবে।",
+      "status_not_approved": "নির্ধারিত কাজ অনুমোদিত হয়নি",
+      "status_scheduled": "\"{{name}}\" নির্ধারিত হয়েছে"
+    },
+    "set_reminder": {
+      "name": "অ্যালার্ম ও রিমাইন্ডার",
+      "description": "আপনার অনুমোদনের পর ঘড়ি অ্যাপে অ্যালার্ম ও টাইমার সেট করুন। এক দিনের বেশি দূরের রিমাইন্ডার আপনার ক্যালেন্ডারে যোগ হয়।",
+      "default_label": "রিমাইন্ডার",
+      "calendar_notes": "NexVora AI Workspace থেকে সেট করা রিমাইন্ডার",
+      "status_asking": "রিমাইন্ডার \"{{label}}\" সেট করার অনুমতি চাওয়া হচ্ছে",
+      "approval_alarm": "{{when}}-এর জন্য \"{{label}}\" অ্যালার্ম সেট করবেন?",
+      "approval_timer": "\"{{label}}\" নামে {{duration}}-এর টাইমার শুরু করবেন? এটি {{when}} শেষ হবে।",
+      "approval_calendar": "{{when}}-এর জন্য অ্যালার্টসহ \"{{label}}\" আপনার ক্যালেন্ডারে যোগ করবেন? এটি এক দিনের বেশি দূরে, তাই ঘড়ি অ্যাপে সেট করা যায় না।",
+      "status_not_approved": "রিমাইন্ডার অনুমোদিত হয়নি",
+      "status_expired": "অনুমোদনের আগেই রিমাইন্ডারের সময় পেরিয়ে গেছে",
+      "status_set": "রিমাইন্ডার \"{{label}}\" সেট হয়েছে"
+    },
+    "draft_email": {
+      "name": "ইমেইলের খসড়া",
+      "description": "একটি ইমেইলের খসড়া লিখে পাঠানোর জন্য আপনার মেইল অ্যাপে (Gmail, Outlook ইত্যাদি) খুলুন।",
+      "status_drafting": "ইমেইল \"{{subject}}\"-এর খসড়া হচ্ছে"
+    },
+    "draft_text": {
+      "name": "টেক্সটের খসড়া",
+      "description": "একটি টেক্সট বার্তার খসড়া লিখে পাঠানোর জন্য আপনার মেসেজিং অ্যাপে (SMS, WhatsApp ইত্যাদি) খুলুন।",
+      "status_drafting_to": "{{recipient}}-কে একটি টেক্সটের খসড়া হচ্ছে",
+      "status_drafting": "একটি টেক্সট বার্তার খসড়া হচ্ছে"
+    },
+    "get_time": {
+      "name": "সময় জানা",
+      "description": "আপনার ডিভাইসের টাইমজোন অনুযায়ী বর্তমান তারিখ ও সময় জানুন।"
+    },
+    "get_location": {
+      "name": "লোকেশন জানা",
+      "description": "আপনার আনুমানিক অবস্থান জানুন। এটি শহর, রাজ্য ও দেশ ফেরত দেবে।",
+      "status_looking_up": "আপনার আনুমানিক অবস্থান খোঁজা হচ্ছে"
+    },
+    "summarize": {
+      "name": "সারসংক্ষেপ",
+      "description": "কোনো URL বা ফাইলের নাম থেকে কনটেন্টের সারসংক্ষেপ করুন।",
+      "status_reading": "{{source}} পড়া হচ্ছে",
+      "status_looking_for_file": "আপনার ফাইলে \"{{name}}\" খোঁজা হচ্ছে",
+      "status_analyzing": "ডকুমেন্টের কাঠামো বিশ্লেষণ হচ্ছে",
+      "status_document_long_one": "ডকুমেন্টটি দীর্ঘ — প্রথম {{count}}টি সেকশনের সারসংক্ষেপ হচ্ছে",
+      "status_document_long_other": "ডকুমেন্টটি দীর্ঘ — প্রথম {{count}}টি সেকশনের সারসংক্ষেপ হচ্ছে",
+      "approval_description_one": "এই কনটেন্টে সারসংক্ষেপের জন্য {{count}}টি সেকশন আছে। এতে কিছু সময় লাগতে পারে — চালিয়ে যাবেন?",
+      "approval_description_other": "এই কনটেন্টে সারসংক্ষেপের জন্য {{count}}টি সেকশন আছে। এতে কিছু সময় লাগতে পারে — চালিয়ে যাবেন?",
+      "status_not_approved": "সারসংক্ষেপ অনুমোদিত হয়নি",
+      "status_complete": "সারসংক্ষেপ সম্পূর্ণ",
+      "status_summarizing_sections": "ডকুমেন্টের সেকশনগুলোর সারসংক্ষেপ হচ্ছে",
+      "status_summarizing_section": "{{total}}টির মধ্যে সেকশন {{current}}-এর সারসংক্ষেপ হচ্ছে",
+      "status_combining": "সেকশনের সারসংক্ষেপগুলো একত্র করা হচ্ছে"
+    },
+    "web_scraping": {
+      "name": "ওয়েব স্ক্র্যাপিং",
+      "description": "তথ্যের জন্য একটি নির্দিষ্ট ওয়েবসাইট স্ক্র্যাপ করুন।",
+      "status_reading": "{{host}} পড়া হচ্ছে",
+      "status_reading_document": "ডকুমেন্ট {{name}} পড়া হচ্ছে",
+      "status_reading_youtube": "YouTube ট্রান্সক্রিপ্ট পড়া হচ্ছে",
+      "cellular_title": "মোবাইল ডেটায় ডাউনলোড করবেন?",
+      "cellular_message": "\"{{name}}\" পড়তে {{size}}-এর একটি ডকুমেন্ট ডাউনলোড করতে হবে। আপনি মোবাইল ডেটায় আছেন। চালিয়ে যাবেন?",
+      "cellular_message_unknown_size": "\"{{name}}\" পড়তে অজানা আকারের একটি ডকুমেন্ট ডাউনলোড করতে হবে। আপনি মোবাইল ডেটায় আছেন। চালিয়ে যাবেন?"
+    },
+    "web_search": {
+      "name": "ওয়েব সার্চ",
+      "description": "কোনো প্রশ্নের ভিত্তিতে ওয়েবে সার্চ ফলাফল খুঁজুন।",
+      "status_searching": "ওয়েবে \"{{query}}\" খোঁজা হচ্ছে",
+      "status_reviewing_one": "{{count}}টি সার্চ ফলাফল পর্যালোচনা হচ্ছে",
+      "status_reviewing_other": "{{count}}টি সার্চ ফলাফল পর্যালোচনা হচ্ছে"
+    },
+    "approval": {
+      "auto_approved_status": "{{tool}} স্বয়ংক্রিয়ভাবে অনুমোদিত হয়েছে"
+    }
+  },
+  "top_bar": {
+    "model_chip": {
+      "remote_managed": "এই ওয়ার্কস্পেস দূর থেকে পরিচালিত। এখানে মডেল বদলানো যাবে না।",
+      "no_model_loaded": "কোনো মডেল লোড করা নেই",
+      "no_models_found": "\"{{query}}\"-এর জন্য কোনো মডেল পাওয়া যায়নি",
+      "hf_lookup_hint": "Hugging Face-এ \"{{query}}\" খুঁজুন এবং একটি GGUF সংস্করণ ডাউনলোড করুন।",
+      "list_failed_toast": "{{provider}}-এর মডেলের তালিকা আনা যায়নি।",
+      "switch_failed": "মডেল বদলানো যায়নি। আবার চেষ্টা করুন।",
+      "loading_models": "{{provider}} থেকে মডেল লোড হচ্ছে...",
+      "list_failed_title": "{{provider}}-এর মডেলের তালিকা আনা যায়নি",
+      "list_failed_description": "এই প্রোভাইডার কোনো মডেল ফেরত দেয়নি। এন্ডপয়েন্টে পৌঁছানো যায় এবং এটি মডেল তালিকা সমর্থন করে কি না দেখুন, অথবা সেটিংসে হাতে মডেল দিন।",
+      "try_again": "আবার চেষ্টা করুন",
+      "search_provider_models": "{{provider}}-এর মডেল খুঁজুন",
+      "switch_provider": "বদলান",
+      "choose_provider": "একটি প্রোভাইডার বেছে নিন",
+      "search_providers": "প্রোভাইডার খুঁজুন",
+      "configured": "কনফিগার করা",
+      "edit_connection": "সংযোগ সম্পাদনা",
+      "connect_title": "{{provider}} সংযুক্ত করুন",
+      "connect": "সংযুক্ত করুন",
+      "connecting": "সংযুক্ত হচ্ছে...",
+      "connect_failed": "{{provider}} থেকে মডেল লোড করা যায়নি। ওপরের তথ্য দেখুন, অথবা তবুও ব্যবহার করতে একটি মডেলের নাম লিখুন।",
+      "model": "মডেল"
+    },
+    "dev_shortcut_hint_one": "ডেভেলপার টুলস খুলতে আরও {{count}} বার চাপুন",
+    "dev_shortcut_hint_other": "ডেভেলপার টুলস খুলতে আরও {{count}} বার চাপুন",
+    "thread_menu": {
+      "options": "থ্রেডের অপশন",
+      "export_failed": "থ্রেড এক্সপোর্ট করা যায়নি: {{error}}",
+      "share_failed": "শেয়ার শিট খোলা যায়নি: {{error}}",
+      "unknown_error": "অজানা ত্রুটি",
+      "open_location_failed": "{{location}}-এ সংরক্ষণ হয়েছে, কিন্তু ফোল্ডারটি খোলা যায়নি",
+      "memories": "স্মৃতি",
+      "memories_description": "আপনার সম্পর্কে বা আপনার পছন্দের স্মৃতি দেখুন",
+      "export_thread": "চ্যাট থ্রেড এক্সপোর্ট",
+      "saved_to_device": "আপনার ডিভাইসে সংরক্ষণ হয়েছে"
+    },
+    "memories": {
+      "global": {
+        "tab": "সবখানে",
+        "hint": "আপনার সম্পর্কে যেসব তথ্য মডেলের সবসময় জানা উচিত — আপনার নাম, পেশা, উত্তর কেমন পছন্দ। প্রতিটি ওয়ার্কস্পেসের প্রতিটি চ্যাটের সাথে পাঠানো হয়। ছোট মডেলে যাতে সব ধরে, তাই সংক্ষিপ্ত রাখুন।",
+        "placeholder": "যেমন: আমার নাম সাম। আমি Python লিখি এবং ছোট উত্তর পছন্দ করি।",
+        "empty": "এখনো কোনো স্মৃতি নেই। ওপরে নিজের সম্পর্কে একটি তথ্য যোগ করুন।"
+      },
+      "workspace": {
+        "tab": "এই ওয়ার্কস্পেস",
+        "hint": "যেসব নোট শুধু এখানেই কাজের — প্রজেক্ট, এর পরিভাষা, নেওয়া সিদ্ধান্ত। গতিশীলভাবে পরিচালিত ও যুক্ত হয়।",
+        "placeholder": "যেমন: এই প্রজেক্টটি Orbit নামের একটি React Native অ্যাপ। npm নয়, yarn ব্যবহার করুন।",
+        "empty": "এই ওয়ার্কস্পেসের কোনো স্মৃতি এখনো নেই। ওপরে এর সম্পর্কে একটি নোট যোগ করুন।"
+      },
+      "no_longer_exists": "সেই স্মৃতিটি আর নেই",
+      "save_failed": "স্মৃতি সংরক্ষণ করা যায়নি",
+      "delete_title": "স্মৃতি মুছবেন?",
+      "enable": "স্মৃতি চালু করুন",
+      "enable_description": "আপনার বা এই ওয়ার্কস্পেসের তথ্য যুক্ত করার অনুমতি দিন।",
+      "remote_notice": "এই ওয়ার্কস্পেসের উত্তর আপনার AnythingLLM সার্ভার দেয়, তাই এর চ্যাটে স্মৃতি ব্যবহার হয় না। গ্লোবাল স্মৃতি আপনার অন-ডিভাইস ও ক্লাউড ওয়ার্কস্পেসে এখনো প্রযোজ্য।",
+      "edit_memory": "স্মৃতি সম্পাদনা",
+      "new_memory": "নতুন স্মৃতি",
+      "delete_memory": "স্মৃতি মুছুন"
+    }
+  },
+  "drawer": {
+    "workspaces": "ওয়ার্কস্পেস",
+    "scheduled_jobs": "নির্ধারিত কাজ",
+    "scheduled_jobs_unseen_one": "নির্ধারিত কাজ, {{count}}টি না-দেখা ফলাফল",
+    "scheduled_jobs_unseen_other": "নির্ধারিত কাজ, {{count}}টি না-দেখা ফলাফল",
+    "new_workspace": "নতুন ওয়ার্কস্পেস",
+    "delete_thread_title": "থ্রেড মুছুন",
+    "delete_thread_message": "আপনি কি নিশ্চিত যে এই থ্রেডটি মুছবেন? সব চ্যাট ইতিহাস হারিয়ে যাবে।",
+    "delete_workspace_title": "ওয়ার্কস্পেস মুছুন",
+    "delete_workspace_message": "আপনি কি নিশ্চিত যে এই ওয়ার্কস্পেসটি মুছবেন? সব থ্রেড হারিয়ে যাবে।",
+    "delete_workspace_message_remote": "আপনি কি নিশ্চিত যে এই ওয়ার্কস্পেসটি মুছবেন? সব থ্রেড হারিয়ে যাবে।\n\nএতে আপনার রিমোট ইনস্ট্যান্সের ওয়ার্কস্পেস মুছবে না।",
+    "rename_thread": "থ্রেডের নাম পরিবর্তন",
+    "rename_thread_placeholder": "থ্রেডের নতুন নাম লিখুন"
+  },
+  "hf_import": {
+    "title": "Hugging Face থেকে মডেল যোগ করুন",
+    "add_card_hint": "একটি রিপো আইডি বা URL পেস্ট করুন এবং এই ডিভাইসে চালাতে যেকোনো GGUF কোয়ান্ট বেছে নিন।",
+    "generic_error": "Hugging Face-এর সাথে যোগাযোগে কিছু একটা ভুল হয়েছে।",
+    "description": "একটি মডেল আইডি বা URL পেস্ট করুন, অথবা খুঁজুন। যেকোনো পাবলিক GGUF কোয়ান্ট এই ডিভাইসে ডাউনলোড করে চালানো যায়।",
+    "show_files": "GGUF ফাইল দেখান",
+    "search_hf": "Hugging Face-এ খুঁজুন",
+    "files_available_one": "ডাউনলোডের জন্য {{count}}টি GGUF ফাইল আছে",
+    "files_available_other": "ডাউনলোডের জন্য {{count}}টি GGUF ফাইল আছে",
+    "highlighted_file": "Hugging Face-এ আপনার বাছাই করা ফাইলটি নিচে হাইলাইট করা আছে। ডাউনলোড করতে ট্যাপ করুন।",
+    "highlight_missing": "\"{{filename}}\" এই রিপোর GGUF ফাইলগুলোর একটি নয়। নিচ থেকে অন্য একটি কোয়ান্ট বেছে নিন।",
+    "search_results": "\"{{query}}\"-এর সাথে মেলা GGUF রিপো, সবচেয়ে বেশি ডাউনলোড আগে। এর ফাইল দেখতে একটিতে ট্যাপ করুন।",
+    "no_search_results": "\"{{query}}\"-এর জন্য কোনো GGUF রিপো পাওয়া যায়নি।",
+    "tip": "টিপ: বেশিরভাগ মডেলের GGUF সংস্করণ unsloth, bartowski বা lmstudio-community-র \"-GGUF\" দিয়ে শেষ হওয়া নামে পাওয়া যায়। ফোনে ছোট কোয়ান্ট (Q4_K_M ও তার নিচে) সবচেয়ে ভালো চলে। গেটেড বা প্রাইভেট মডেল সমর্থিত নয়।",
+    "params": "{{value}} প্যারামিটার",
+    "context": "{{value}}k কনটেক্সট",
+    "downloads": "{{value}} ডাউনলোড",
+    "gated": "এই রিপোটি গেটেড। ডাউনলোডে Hugging Face লগইন লাগে, যা এখনো সমর্থিত নয়।",
+    "requested": "অনুরোধ করা"
+  },
+  "models": {
+    "recommended": "প্রস্তাবিত",
+    "memory_fit": {
+      "tight": "মেমরিতে নাও ধরতে পারে",
+      "tight_compact": "নাও ধরতে পারে",
+      "impossible": "এই ডিভাইসের জন্য খুব বড়",
+      "impossible_compact": "খুব বড়"
+    },
+    "sections": {
+      "found_on_device": "এই ডিভাইসে পাওয়া গেছে",
+      "added_from_hf": "Hugging Face থেকে যোগ করা",
+      "other": "অন্যান্য"
+    },
+    "vector_storage": {
+      "reset_title": "ভেক্টর স্টোরেজ রিসেট",
+      "reset_message": "আপনি কি নিশ্চিত যে এই ওয়ার্কস্পেসের ভেক্টর স্টোরেজ রিসেট করবেন?",
+      "cleared": "ভেক্টর স্টোরেজ মুছে ফেলা হয়েছে!"
+    },
+    "vision": {
+      "remote": "রিমোট ওয়ার্কস্পেসের সাথে চ্যাটে ছবি এখনো সমর্থিত নয়।",
+      "no_model": "ছবি সংযুক্ত করতে একটি মডেল বাছুন।",
+      "on_device": "নির্বাচিত অন-ডিভাইস মডেল ছবি পড়তে পারে না।",
+      "needs_download": "এই মডেল ছবি দেখতে পারে, কিন্তু একটি অতিরিক্ত ডাউনলোড দরকার।"
+    },
+    "speech_to_text": {
+      "permission_title": "মাইক্রোফোন অ্যাক্সেস",
+      "permission_message": "আপনার কথাকে প্রম্পটে রূপান্তর করতে NexVora AI Workspace-এর মাইক্রোফোন অ্যাক্সেস দরকার।",
+      "permission_required_title": "মাইক্রোফোন অ্যাক্সেস প্রয়োজন",
+      "permission_required_message": "স্পিচ-টু-টেক্সট ব্যবহার করতে ডিভাইসের সেটিংসে মাইক্রোফোন অ্যাক্সেস চালু করুন।"
+    },
+    "attachments": {
+      "vectors_cleared": "ওয়ার্কস্পেসের ভেক্টর মুছে ফেলা হয়েছে",
+      "clear_vectors_title": "ওয়ার্কস্পেসের ভেক্টর মুছুন",
+      "clear_vectors_message": "আপনি কি নিশ্চিত যে এই ওয়ার্কস্পেসের ভেক্টর মুছবেন? এতে এই ওয়ার্কস্পেসের সব ভেক্টর মুছে যাবে এবং তা ফেরানো যাবে না।",
+      "not_found": "সংযুক্তিটি পাওয়া যায়নি",
+      "empty_content": "সংযুক্তির কনটেন্ট ফাঁকা ছিল বা পড়া যায়নি",
+      "large_document_title": "বড় ডকুমেন্ট",
+      "large_document_message": "\"{{name}}\" প্রায় {{tokens}} টোকেনের। {{provider}}-এর সাথে এই ওয়ার্কস্পেসের প্রতিটি বার্তার সাথে পুরো ডকুমেন্ট পাঠানো হয়, যা ধীর ও ব্যয়বহুল হতে পারে। তবুও সংযুক্ত করবেন?",
+      "large_document_message_generic": "\"{{name}}\" প্রায় {{tokens}} টোকেনের। আপনার মডেল প্রোভাইডারের সাথে এই ওয়ার্কস্পেসের প্রতিটি বার্তার সাথে পুরো ডকুমেন্ট পাঠানো হয়, যা ধীর ও ব্যয়বহুল হতে পারে। তবুও সংযুক্ত করবেন?",
+      "attach": "সংযুক্ত করুন",
+      "create_failed": "সংযুক্তির জন্য ডকুমেন্ট তৈরি করা যায়নি",
+      "camera_permission_title": "ক্যামেরা অ্যাক্সেস",
+      "camera_permission_message": "আপনার প্রম্পটের জন্য ছবি তুলতে NexVora AI Workspace-এর ক্যামেরা দরকার।",
+      "max_reached_one": "প্রতি প্রম্পটে সর্বোচ্চ {{count}}টি আইটেম সংযুক্ত করা যায়",
+      "max_reached_other": "প্রতি প্রম্পটে সর্বোচ্চ {{count}}টি আইটেম সংযুক্ত করা যায়",
+      "camera_permission_required": "ছবি তুলতে ক্যামেরার অনুমতি প্রয়োজন",
+      "camera_open_failed": "ক্যামেরা খোলা যায়নি",
+      "gallery_open_failed": "গ্যালারি খোলা যায়নি",
+      "image_unreadable": "নির্বাচিত ছবিটি পড়া যায়নি",
+      "images_skipped_unreadable_one": "{{count}}টি ছবি পড়া যায়নি এবং বাদ দেওয়া হয়েছে",
+      "images_skipped_unreadable_other": "{{count}}টি ছবি পড়া যায়নি এবং বাদ দেওয়া হয়েছে",
+      "image_attach_failed": "ছবি সংযুক্ত করা যায়নি",
+      "max_reached_skipped_one": "প্রতি প্রম্পটে সর্বোচ্চ {{max}}টি আইটেম সংযুক্ত করা যায় — {{count}}টি বাদ দেওয়া হয়েছে",
+      "max_reached_skipped_other": "প্রতি প্রম্পটে সর্বোচ্চ {{max}}টি আইটেম সংযুক্ত করা যায় — {{count}}টি বাদ দেওয়া হয়েছে",
+      "images_skipped_no_vision_one": "আপনার বর্তমান মডেল ছবি পড়তে পারে না — {{count}}টি ছবি বাদ দেওয়া হয়েছে",
+      "images_skipped_no_vision_other": "আপনার বর্তমান মডেল ছবি পড়তে পারে না — {{count}}টি ছবি বাদ দেওয়া হয়েছে",
+      "read_failed": "{{name}} পড়া যায়নি",
+      "remove_title": "সংযুক্তি সরান",
+      "remove_message": "আপনি কি নিশ্চিত যে এই সংযুক্তিটি চ্যাট থেকে সরাবেন?",
+      "shared_content_failed": "শেয়ার করা কনটেন্ট সংযুক্ত করা যায়নি"
+    },
+    "memory_warning": {
+      "short": "মেমরি সতর্কতা",
+      "full": "সতর্কতা: মডেলের আকার উপলব্ধ মেমরির বেশি হতে পারে। এতে আপনার ডিভাইসের পারফরম্যান্স ও স্থিতিশীলতায় প্রভাব পড়তে পারে।"
+    },
+    "low_memory": {
+      "title": "মেমরি কম",
+      "advice": "মেমরি শেষ হয়ে গেলে ফোন মেমরি ফিরে পেতে উত্তরের মাঝপথে NexVora AI Workspace বন্ধ করে দিতে পারে, যা ক্র্যাশের মতো দেখায়। অন্য অ্যাপ বন্ধ করুন, অথবা আরও নির্ভরযোগ্য উত্তরের জন্য রিমোট মডেল সংযোগে যান।",
+      "free": "খালি",
+      "total": "মোট",
+      "model_loaded": "মডেল (লোড করা)",
+      "model_needs": "মডেলের প্রয়োজন",
+      "send_anyway": "তবুও পাঠান",
+      "got_it": "বুঝেছি",
+      "indicator_label": "মেমরি কমের সতর্কতা"
+    },
+    "catalog": {
+      "gemma_3_1b": "(Q8_0) Gemma3 1B হলো Gemma3 4B মডেলের একটি ছোট, হালকা সংস্করণ, আরও জটিল কাজের জন্য।",
+      "qwen3_0_6b": "(Q8_0) Qwen3 0.6B একটি ছোট, খুব দ্রুত মডেল, দ্রুত উত্তর ও সহজ কাজের জন্য। এর জায়গায় এখন Qwen3.5 0.8B।",
+      "qwen3_1_7b": "(Q8_0) Qwen3 1.7B হলো Qwen3-0.6B মডেলের চেয়ে অনেক বেশি সক্ষম সংস্করণ, আরও জটিল কাজের জন্য।",
+      "llama_3_2_1b": "(Q8_0) Llama 3.2 1B হলো Llama 3.2 মডেলের সবচেয়ে ছোট সংস্করণ।",
+      "qwen3_5_0_8b": "(Q8_0) Qwen3.5 0.8B হলো Qwen3.5 পরিবারের সবচেয়ে ছোট মডেল। যেকোনো ফোনে খুব দ্রুত, নির্দেশ মানার ক্ষমতা ভালো।",
+      "qwen3_5_2b": "(Q8_0) Qwen3.5 2B একটি শক্তিশালী সাধারণ-উদ্দেশ্যের ছোট মডেল, টুল কলিং ও আকারের তুলনায় ভালো যুক্তিক্ষমতাসহ।",
+      "qwen3_5_4b": "(Q6_K) Qwen3.5 4B হলো ফোনে ধরে এমন সবচেয়ে সক্ষম Qwen3.5 মডেল। সেরা নির্ভুলতা, যুক্তি ও টুল কলিং; ৮GB+ RAM-এর ডিভাইস লাগে।",
+      "qwen3_vl_2b_instruct": "(Q4_K_XL) Qwen3-VL 2B একটি ভিশন-ল্যাঙ্গুয়েজ মডেল, যা ছবির বর্ণনা দিতে ও ছবি নিয়ে প্রশ্নের উত্তর দিতে পারে।",
+      "granite_3_3_2b_instruct": "(Q4_K_XL) IBM-এর Granite 3.3 2B RAG, সারসংক্ষেপ ও টুল কলিংয়ের জন্য টিউন করা। Apache 2.0 লাইসেন্সপ্রাপ্ত।",
+      "granite_4_2_3b": "(Q4_K_M) Granite 4.2 3B হলো সবচেয়ে নতুন ছোট Granite মডেল, আরও ভালো যুক্তি ও টুল কলিংসহ। ডাউনলোড বড়।",
+      "lfm2_5_1_2b_instruct": "(Q8_0) LFM2.5 1.2B একটি খুব দ্রুত ছোট মডেল, অন-ডিভাইস চ্যাট, টুল কলিং ও ১৬টি ভাষার জন্য টিউন করা। পূর্ণ মানের কোয়ান্ট।",
+      "lfm2_5_2_6b": "(Q5_K_M) LFM2.5 2.6B ফোনের জন্য সবচেয়ে সক্ষম Liquid মডেল, নির্দেশ মানা, টুল কলিং ও যুক্তিতে শক্তিশালী।",
+      "gemma_4_e2b": "(QAT Q2_K_XL) Gemma 4 E2B হলো Google-এর মোবাইল-প্রথম মডেল, কার্যকর ২B প্যারামিটারসহ। এই আকারের জন্য কোয়ান্টাইজেশন-সচেতনভাবে প্রশিক্ষিত।",
+      "gemma_4_e4b": "(QAT Q2_K_XL) Gemma 4 E4B হলো ফোনে ধরে এমন সবচেয়ে সক্ষম Gemma। ডাউনলোড বড়, সাম্প্রতিক বেশি-মেমরির ডিভাইস লাগে।"
+    },
+    "presets": {
+      "lightweight": {
+        "name": "হালকা",
+        "description": "দ্রুত উত্তর ও সহজ কাজের জন্য।"
+      },
+      "balanced": {
+        "name": "ভারসাম্যপূর্ণ",
+        "description": "গতি ও নির্ভুলতার ভারসাম্যের জন্য।"
+      },
+      "powerful": {
+        "name": "শক্তিশালী",
+        "description": "সেরা নির্ভুলতার জন্য ভারী মডেল।"
+      }
+    },
+    "imported_description": "Hugging Face ({{repo}}) থেকে যোগ করা।",
+    "imported_description_specs": "Hugging Face ({{repo}}) থেকে যোগ করা। {{specs}}।",
+    "no_model_loaded_error": "কোনো মডেল লোড করা নেই। আগে একটি মডেল বাছুন।",
+    "unknown_model_description": "এই ডিভাইসে {{modelId}}-এ পাওয়া গেছে, কিন্তু এটি আমাদের মডেল তালিকায় নেই। তবুও এটি ব্যবহার বা আনইনস্টল করতে পারেন।",
+    "status": {
+      "summarizing": "আগের কথোপকথনের সারসংক্ষেপ হচ্ছে",
+      "using_summary_one": "আগের {{count}}টি বার্তার সারসংক্ষেপ ব্যবহার হচ্ছে",
+      "using_summary_other": "আগের {{count}}টি বার্তার সারসংক্ষেপ ব্যবহার হচ্ছে",
+      "loading_model": "মডেল মেমরিতে লোড হচ্ছে",
+      "reply_truncated": "উত্তর মাঝপথে কেটে গেছে — কনটেক্সট উইন্ডো ভরে গেছে",
+      "tool_call_limit_reached_one": "{{count}}টি টুল কলের সীমায় পৌঁছেছে — হাতে থাকা তথ্য দিয়ে উত্তর দিচ্ছে",
+      "tool_call_limit_reached_other": "{{count}}টি টুল কলের সীমায় পৌঁছেছে — হাতে থাকা তথ্য দিয়ে উত্তর দিচ্ছে",
+      "searching_documents": "আপনার ডকুমেন্টে খোঁজা হচ্ছে",
+      "reranking": "ফলাফল পুনর্বিন্যাস হচ্ছে",
+      "reading_documents_one": "{{count}}টি সংযুক্ত ডকুমেন্ট পড়া হচ্ছে",
+      "reading_documents_other": "{{count}}টি সংযুক্ত ডকুমেন্ট পড়া হচ্ছে"
+    }
+  },
+  "providers": {
+    "descriptions": {
+      "native": "আপনার ফোনে মডেল ইনস্টল করে চালান।",
+      "ollama": "Ollama দিয়ে নিজের মেশিনে লোকালি LLM চালান।",
+      "lmstudio": "কয়েক ক্লিকে হাজারো অত্যাধুনিক LLM খুঁজুন, ডাউনলোড করুন ও চালান।",
+      "chatgpt": "আপনার ChatGPT Plus বা Pro প্ল্যান ব্যবহার করুন",
+      "openai": "API কী দিয়ে OpenAI-এর শক্তিশালী মডেল ব্যবহার করুন।",
+      "anthropic": "Anthropic-এর হোস্ট করা একটি বন্ধুসুলভ AI অ্যাসিস্ট্যান্ট।",
+      "gemini": "Google-এর সবচেয়ে বড় ও সক্ষম AI মডেল",
+      "openrouter": "শীর্ষস্থানীয় প্রোভাইডারদের AI সেবার একটি একীভূত API",
+      "bedrock": "AWS Bedrock দিয়ে শক্তিশালী ফাউন্ডেশন মডেল ব্যক্তিগতভাবে চালান।",
+      "deepseek": "DeepSeek-এর শক্তিশালী LLM চালান।",
+      "fireworksai": "প্রোডাকশন-প্রস্তুত, যৌগিক AI সিস্টেম বানানোর জন্য সবচেয়ে দ্রুত ও দক্ষ ইনফারেন্স ইঞ্জিন।",
+      "minimax": "MiniMax-এর শক্তিশালী LLM চালান।",
+      "moonshotai": "Moonshot AI-এর Kimi মডেল চালান।",
+      "novita": "Novita AI-এর LLM — নির্ভরযোগ্য, স্কেলযোগ্য ও সাশ্রয়ী",
+      "togetherai": "Together AI থেকে ওপেন সোর্স মডেল চালান।",
+      "xai": "Grok-এর মতো xAI-এর শক্তিশালী LLM চালান।",
+      "litellm": "বিভিন্ন LLM-এর জন্য LiteLLM-এর OpenAI-সামঞ্জস্যপূর্ণ প্রক্সি চালান।",
+      "localai": "নিজের মেশিনে লোকালি LLM চালান।",
+      "lemonade": "Lemonade Server দিয়ে AMD হার্ডওয়্যারে LLM চালান।",
+      "llmman": "llmman দিয়ে লোকালি LLM চালান।",
+      "generic_openai": "কাস্টম কনফিগারেশনে যেকোনো OpenAI-সামঞ্জস্যপূর্ণ সেবার সাথে সংযুক্ত হন"
+    },
+    "experimental": "পরীক্ষামূলক",
+    "sections": {
+      "local": "লোকাল প্রোভাইডার",
+      "cloud": "ক্লাউড প্রোভাইডার"
+    },
+    "validation": {
+      "unknown_provider": "অজানা প্রোভাইডার।",
+      "api_key_required": "অনুগ্রহ করে এই প্রোভাইডারের জন্য একটি API কী লিখুন।",
+      "base_url_required": "অনুগ্রহ করে আপনার প্রোভাইডারের বেস URL লিখুন।",
+      "region_required": "অনুগ্রহ করে আপনার Bedrock ডিপ্লয়মেন্টের AWS রিজিয়ন বাছুন।",
+      "model_required": "অনুগ্রহ করে ব্যবহারের জন্য একটি মডেল বাছুন।",
+      "sign_in_required": "এই প্রোভাইডার ব্যবহার করতে অনুগ্রহ করে সাইন ইন করুন।"
+    },
+    "errors": {
+      "stream_interrupted": "উত্তরটি সম্পূর্ণ হওয়ার আগেই শেষ হয়ে গেছে। আবার চেষ্টা করুন।"
+    },
+    "chatgpt": {
+      "continue": "ChatGPT দিয়ে চালিয়ে যান",
+      "plan_hint": "ChatGPT Plus বা Pro প্ল্যান লাগবে। ব্যবহার আপনার প্ল্যানের সীমায় গণনা হয়।",
+      "experimental_note": "পরীক্ষামূলক: অন্য অ্যাপে ChatGPT প্ল্যান ব্যবহারের OpenAI-র সমর্থন এখনো প্রিভিউতে আছে এবং বদলে যেতে বা কাজ বন্ধ হয়ে যেতে পারে।",
+      "notice_title": "আপনার ChatGPT প্ল্যান ব্যবহার করুন",
+      "notice_body": "NexVora AI Workspace-এর যোগ্য AI অনুরোধগুলো আপনার ChatGPT প্ল্যান ব্যবহার করবে। যেকোনো সময় আপনার ChatGPT সেটিংসে ব্যবহার পরিচালনা করতে পারবেন।",
+      "notice_confirm": "বুঝেছি",
+      "signed_in_as": "{{email}} হিসেবে সাইন ইন করা",
+      "your_account": "আপনার ChatGPT অ্যাকাউন্ট",
+      "using_plan": "ChatGPT প্ল্যান ব্যবহার হচ্ছে",
+      "manage_usage": "ব্যবহার পরিচালনা",
+      "sign_out": "সাইন আউট",
+      "sign_in_failed": "ChatGPT দিয়ে সাইন ইন করা যায়নি: {{error}}",
+      "plan_usage_not_granted": "সাইন ইনের সময় আপনার ChatGPT প্ল্যান ব্যবহারের অনুমতি দেওয়া হয়নি। ChatGPT-র সাথে চ্যাট করতে আবার সাইন ইন করে প্ল্যান ব্যবহারের অনুমতি দিন।",
+      "denied": "ChatGPT-র সাথে সংযোগের অনুমতি দেওয়া হয়নি। ChatGPT যদি বলে প্রয়োজনীয় অনুমতি পাওয়া যাচ্ছে না, তাহলে আপনার প্ল্যান এখানে ব্যবহার করা যাবে না — Sign in with ChatGPT-র জন্য Plus বা Pro প্ল্যান লাগে।",
+      "errors": {
+        "not_eligible": "আপনার ChatGPT অ্যাকাউন্ট এখানে ব্যবহার করা যাবে না। Sign in with ChatGPT-র জন্য Plus বা Pro প্ল্যান লাগে।",
+        "usage_limit": "আপনার ChatGPT প্ল্যানে NexVora AI Workspace-এর ব্যবহারের সীমায় পৌঁছে গেছেন। ব্যবহার পরিচালনা করুন: {{url}}",
+        "usage_unavailable": "ChatGPT প্ল্যানের ব্যবহার সাময়িকভাবে অনুপলব্ধ। একটু পরে আবার চেষ্টা করুন।",
+        "unsupported": "এই অনুরোধে এমন একটি ফিচার আছে যা আপনার ChatGPT প্ল্যানে নেই।"
+      }
+    }
+  },
+  "llm_selection": {
+    "choose_provider": "আপনার প্রোভাইডার বেছে নিন",
+    "no_providers_found": "\"{{query}}\"-এর জন্য কোনো প্রোভাইডার পাওয়া যায়নি",
+    "download_model_title": "মডেল ডাউনলোড করবেন?",
+    "download_model_message": "এটি মডেলটি আপনার ডিভাইসে ডাউনলোড করবে। এর আকার {{size}} বাইট।",
+    "preferred_model": "পছন্দের মডেল"
+  },
+  "downloads": {
+    "no_internet_title": "ইন্টারনেট সংযোগ নেই।",
+    "no_internet_image_support": "ছবি সমর্থন ডাউনলোড করতে ইন্টারনেটে সংযুক্ত থাকতে হবে।",
+    "no_internet_model": "যেকোনো মডেল ডাউনলোড করতে ইন্টারনেটে সংযুক্ত থাকতে হবে।",
+    "data_usage_title": "ডেটা ব্যবহারের সতর্কতা",
+    "data_usage_image_support": "ছবি সমর্থনের আকার {{size}}, তাই ডাউনলোডে Wi-Fi ব্যবহারের পরামর্শ দিই।",
+    "data_usage_model": "মডেলের আকার {{size}}, তাই ডাউনলোডে Wi-Fi ব্যবহারের পরামর্শ দিই।",
+    "continue_anyway": "তবুও চালিয়ে যান",
+    "continue_with_download": "ডাউনলোড চালিয়ে যান",
+    "image_support_title": "ছবি সমর্থন ডাউনলোড করবেন?",
+    "image_support_message": "ছবি সমর্থনের ফাইল ডাউনলোড হলে {{model}} ছবি বুঝতে পারবে। এর আকার {{size}}।",
+    "download_model_title": "মডেল ডাউনলোড করবেন?",
+    "download_model_message": "এটি মডেলটি আপনার ডিভাইসে ডাউনলোড করবে। এর আকার {{size}}।",
+    "notification_downloading_title": "মডেল ডাউনলোড হচ্ছে",
+    "notification_downloading_body": "{{model}} ডাউনলোড হচ্ছে",
+    "keep_app_open": "ডাউনলোড শেষ না হওয়া পর্যন্ত এই স্ক্রিনে থাকুন এবং ফোন আনলক রাখুন।",
+    "cancel_download_title": "ডাউনলোড বাতিল করবেন?",
+    "cancel_download_message": "{{model}}-এর ডাউনলোড থামবে এবং আংশিক ডাউনলোড মুছে যাবে।",
+    "keep_downloading": "ডাউনলোড চালিয়ে যান",
+    "cancel_download": "ডাউনলোড বাতিল",
+    "notification_complete_title": "ডাউনলোড সম্পূর্ণ",
+    "notification_complete_body": "{{model}} ডাউনলোড হয়েছে",
+    "download_failed_title": "ডাউনলোড ব্যর্থ",
+    "download_failed_message": "মডেল ডাউনলোডে একটি ত্রুটি হয়েছে।",
+    "uninstall_model_title": "মডেল আনইনস্টল করবেন?",
+    "uninstall_model_message": "এটি আপনার ডিভাইস থেকে মডেলটি সরিয়ে দেবে।",
+    "storage_low": "স্টোরেজ কম! মডেল {{modelSize}} > খালি {{freeSpace}}",
+    "storage_check_failed": "স্টোরেজ যাচাই করা যায়নি",
+    "setup_failed_title": "ডাউনলোড সেটআপ ব্যর্থ",
+    "setup_failed_message": "HF মডেল ডাউনলোড সেট করা যায়নি: {{error}}"
+  },
+  "onboarding": {
+    "welcome": {
+      "title": "স্বাগতম",
+      "description": "একটি AI এজেন্ট যা আপনার ফোনেই থাকে। ডকুমেন্টের সাথে চ্যাট করুন, ওয়েবে খুঁজুন, আর আপনার অ্যাপগুলোর সাথে যুক্ত হন।",
+      "get_started": "শুরু করুন",
+      "back_blocked": "চালিয়ে যেতে অনুগ্রহ করে অনবোর্ডিং শেষ করুন।"
+    },
+    "model_selection": {
+      "title": "আপনি কোন মডেল ব্যবহার করতে চান?",
+      "description": "পরে বদলাতে পারবেন, তবে আপনার প্রয়োজনের সাথে সবচেয়ে মানানসইটি বেছে নিন।",
+      "use_external": "মডেল ডাউনলোড করতে চান না? বাইরের প্রোভাইডার ব্যবহার করুন"
+    },
+    "external": {
+      "title": "একটি বাইরের প্রোভাইডার সংযুক্ত করুন",
+      "description": "ফোনে ডাউনলোড না করে অন্য কোথাও হোস্ট করা মডেল ব্যবহার করুন। পরে বদলাতে পারবেন।",
+      "choose_provider": "একটি LLM প্রোভাইডার বেছে নিন",
+      "provider_settings": "প্রোভাইডার সেটিংস",
+      "incomplete_setup": "প্রোভাইডারের সেটআপ অসম্পূর্ণ"
+    },
+    "download": {
+      "error_title": "একটি ত্রুটি হয়েছে",
+      "error_message": "মডেল ডাউনলোডে ত্রুটি {{error}}",
+      "success_title": "মডেল ডাউনলোড হয়েছে",
+      "success_message": "মডেলটি সফলভাবে ডাউনলোড হয়েছে",
+      "url_must_be_gguf": "URL অবশ্যই .gguf দিয়ে শেষ হতে হবে"
+    },
+    "survey": {
+      "title": "NexVora AI Workspace আপনাকে কীসে সাহায্য করতে পারে?",
+      "description": "আপনার জন্য সবচেয়ে প্রযোজ্যটি বেছে নিন।",
+      "options": {
+        "productivity": "উৎপাদনশীলতা বাড়ানো",
+        "privacy": "গোপনীয়তা-কেন্দ্রিক চ্যাট",
+        "custom_ai": "নিজস্ব AI এজেন্ট",
+        "automation": "AI অটোমেশন",
+        "other": "অন্যান্য"
+      }
+    },
+    "data_handling": {
+      "title": "ডেটা পরিচালনা ও গোপনীয়তা",
+      "description": "NexVora AI Workspace-এ সব চ্যাট, ডকুমেন্ট ও অন্যান্য ডেটা আপনার ডিভাইসেই প্রসেস ও সংরক্ষণ হয়।",
+      "local_chats_title": "সম্পূর্ণ লোকাল চ্যাট",
+      "local_chats_description": "সব চ্যাট আপনার ডিভাইসে সংরক্ষিত থাকে।",
+      "embedding_title": "ডকুমেন্ট এমবেডিং",
+      "embedding_description": "সব ডকুমেন্ট ও প্রসেসিং আপনার ডিভাইসেই হয়।",
+      "agents_title": "AI এজেন্ট",
+      "agents_description": "সব এজেন্ট আপনার ডিভাইসে চলে এবং শুধু প্রয়োজনে ইন্টারনেট ব্যবহার করে (যেমন: ওয়েব সার্চ)",
+      "experience": "NexVora AI Workspace ব্যবহার করে দেখুন",
+      "setting_up": "আপনার প্রথম ওয়ার্কস্পেস সেট করা হচ্ছে",
+      "default_workspace_name": "আমার ওয়ার্কস্পেস"
+    }
+  },
+  "workspace_settings": {
+    "load_error": "ওয়ার্কস্পেস লোড করতে ত্রুটি",
+    "autosaving": "স্বয়ংক্রিয়ভাবে সংরক্ষণ হচ্ছে...",
+    "autosaved": "স্বয়ংক্রিয়ভাবে সংরক্ষিত!",
+    "name": {
+      "section": "ওয়ার্কস্পেসের নাম",
+      "title": "নাম",
+      "current": "বর্তমান নাম",
+      "placeholder": "এখানে নাম লিখুন...",
+      "save_error": "নাম সংরক্ষণে ত্রুটি"
+    },
+    "system_prompt": {
+      "title": "সিস্টেম প্রম্পট",
+      "label": "প্রম্পট",
+      "current": "বর্তমান সিস্টেম প্রম্পট",
+      "placeholder": "এখানে আপনার সিস্টেম প্রম্পট লিখুন...",
+      "save_error": "সিস্টেম প্রম্পট সংরক্ষণে ত্রুটি",
+      "description": "সিস্টেম প্রম্পট হলো AI-এর জন্য পথনির্দেশক প্রম্পট ও নির্দেশনা। AI-এর আচরণ ও উত্তরের ধরন নিয়ন্ত্রণে এটি ব্যবহার করুন।"
+    },
+    "temperature": {
+      "title": "টেম্পারেচার",
+      "current": "বর্তমান টেম্পারেচার",
+      "suggested": "প্রস্তাবিত টেম্পারেচার",
+      "placeholder": "ডিফল্ট (প্রোভাইডার ঠিক করবে)",
+      "save_error": "টেম্পারেচার সংরক্ষণে ত্রুটি",
+      "hint": "আপনার LLM প্রোভাইডার ও মডেলের ডিফল্ট টেম্পারেচার ব্যবহার করতে ফাঁকা রাখুন। বদলাতে ০ থেকে ১-এর মধ্যে একটি মান দিন।",
+      "description": "টেম্পারেচার হলো AI-এর উত্তরের এলোমেলো ভাবের মাত্রা। টেম্পারেচার যত বেশি, উত্তর তত বেশি এলোমেলো হবে।"
+    },
+    "context_length": {
+      "title": "কনটেক্সট দৈর্ঘ্য",
+      "current": "বর্তমান কনটেক্সট দৈর্ঘ্য",
+      "suggested": "প্রস্তাবিত কনটেক্সট দৈর্ঘ্য",
+      "placeholder": "এখানে কনটেক্সট দৈর্ঘ্য লিখুন...",
+      "save_error": "কনটেক্সট দৈর্ঘ্য সংরক্ষণে ত্রুটি",
+      "hint": "মনে রাখুন, কনটেক্সট দৈর্ঘ্য আপনার ব্যবহৃত মডেলের ওপরও নির্ভর করে এবং এটি আপনার ডিভাইসের মেমরির ওপর প্রভাব ফেলে।",
+      "description": "কনটেক্সট দৈর্ঘ্য হলো উত্তর তৈরির সময় AI সর্বোচ্চ যত টোকেন ব্যবহার করতে পারে।",
+      "provider_managed": "প্রোভাইডার ঠিক করে",
+      "disabled_description": "কনটেক্সট দৈর্ঘ্য শুধু অন-ডিভাইস মডেলের জন্য প্রযোজ্য। আপনার বর্তমান প্রোভাইডার নিজের কনটেক্সট উইন্ডো নিজেই পরিচালনা করে।"
+    },
+    "max_tool_calls": {
+      "title": "সর্বোচ্চ টুল কল",
+      "label": "টুল কলের সীমা",
+      "current": "বর্তমান টুল কলের সীমা",
+      "suggested": "প্রস্তাবিত সীমা",
+      "placeholder": "কোনো সীমা নেই",
+      "save_error": "টুল কলের সীমা সংরক্ষণে ত্রুটি",
+      "no_limit": "কোনো সীমা নেই",
+      "hint": "একটি উত্তরে এজেন্ট সর্বোচ্চ যতগুলো টুল কল করতে পারে। সীমায় পৌঁছালে এজেন্ট টুল কল বন্ধ করে হাতে থাকা তথ্য দিয়ে উত্তর দেয়।\n\nসীমাহীন রাখতে ফাঁকা রাখুন। ডিফল্টে ফিরতে রিসেটে ট্যাপ করুন: ক্লাউড প্রোভাইডারের জন্য {{cloud}}, অন-ডিভাইস মডেলের জন্য {{onDevice}}।",
+      "description": "একটি উত্তরে এজেন্ট কতগুলো টুল কল করতে পারবে তা সীমিত করে, যাতে সে অনন্তকাল টুল কল করতে না থাকে। দীর্ঘ, বহু-ধাপের কাজে এটি বাড়ান।"
+    },
+    "vectors": {
+      "section": "ভেক্টর স্টোরেজ",
+      "count": "ভেক্টরের সংখ্যা",
+      "description": "এটি ওয়ার্কস্পেসে বর্তমানে সংরক্ষিত ভেক্টরের সংখ্যা। ওয়ার্কস্পেসের কনটেক্সট সংরক্ষণে এটি ব্যবহৃত হয়।"
+    },
+    "delete": {
+      "button": "ওয়ার্কস্পেস মুছুন",
+      "confirm_title": "ওয়ার্কস্পেস মুছবেন?",
+      "confirm_message": "আপনি কি নিশ্চিত যে এই ওয়ার্কস্পেসটি মুছবেন? সব থ্রেড হারিয়ে যাবে।",
+      "confirm_message_remote": "আপনি কি নিশ্চিত যে এই ওয়ার্কস্পেসটি মুছবেন? সব থ্রেড হারিয়ে যাবে।\n\nএতে আপনার রিমোট ইনস্ট্যান্সের ওয়ার্কস্পেস মুছবে না।"
+    }
+  },
+  "connect": {
+    "title": "AnythingLLM-এ সংযুক্ত হন",
+    "scan_description": "আপনার AnythingLLM ইনস্ট্যান্স বা ক্লায়েন্টের QR কোড স্ক্যান করুন, যাতে চলতি পথে AI ব্যবহারের জন্য এর ডেটা এই মোবাইলে সিঙ্ক হয়!",
+    "previous_connections": "আগের সংযোগ",
+    "verify": {
+      "title": "সংযোগ যাচাই",
+      "go_back": "পিছনে যান",
+      "registering": "আপনার ডিভাইস নিবন্ধন হচ্ছে...",
+      "few_seconds": "কয়েক সেকেন্ড লাগতে পারে...",
+      "awaiting_approval": "অনুমোদনের অপেক্ষায়...",
+      "approve_in_app": "অনুগ্রহ করে AnythingLLM অ্যাপ্লিকেশনে ডিভাইসটি অনুমোদন করুন...",
+      "collecting_data": "ইনস্ট্যান্সের ডেটা সংগ্রহ হচ্ছে...",
+      "register_failed": "ডিভাইস নিবন্ধন ব্যর্থ হয়েছে। আবার চেষ্টা করুন।",
+      "register_failed_reason": "ডিভাইস নিবন্ধন ব্যর্থ হয়েছে: {{reason}}",
+      "approval_failed": "ডিভাইস নিবন্ধন বা অনুমোদন ব্যর্থ হয়েছে। আবার চেষ্টা করুন।"
+    },
+    "import": {
+      "connection_expired": "AnythingLLM Desktop-এর সাথে আপনার আগের সংযোগের মেয়াদ শেষ হয়েছে।",
+      "refresh_failed": "ওয়ার্কস্পেস রিফ্রেশ করা যায়নি",
+      "go_home": "হোমে ফিরে যান",
+      "thread_count_one": "{{formatted}}টি থ্রেড",
+      "thread_count_other": "{{formatted}}টি থ্রেড",
+      "chat_count_one": "{{formatted}}টি চ্যাট",
+      "chat_count_other": "{{formatted}}টি চ্যাট",
+      "sync": "সিঙ্ক",
+      "synced": "সিঙ্ক হয়েছে",
+      "sync_failed": "ব্যর্থ",
+      "sync_workspace_failed": "ওয়ার্কস্পেস {{name}} সিঙ্ক করা যায়নি",
+      "workspaces": "ওয়ার্কস্পেস",
+      "platform_desktop": "AnythingLLM Desktop",
+      "platform_server": "AnythingLLM Server",
+      "empty_title": "কোনো ওয়ার্কস্পেস পাওয়া যায়নি",
+      "empty_body": "AnythingLLM-এ একটি ওয়ার্কস্পেস তৈরি করুন, তারপর রিফ্রেশ করতে নিচে টানুন।",
+      "sync_explainer": "সিঙ্ক করলে একটি ওয়ার্কস্পেসের থ্রেড ও চ্যাট এই ডিভাইসে কপি হয়। আবার সিঙ্ক করলে সেই কপি বদলে যায়। ডিফল্ট থ্রেডের চ্যাট সিঙ্ক হয় না।"
+    }
+  },
+  "scheduled_jobs": {
+    "title": "নির্ধারিত কাজ",
+    "job_missing": "সেই কাজটি আর নেই",
+    "update_failed": "কাজটি আপডেট করা যায়নি",
+    "prompt": "প্রম্পট",
+    "tools": "টুলস",
+    "paused": "বিরতিতে",
+    "running_now": "এখন চলছে",
+    "stop_run": "রান থামান",
+    "run_already_finished": "সেই রানটি আগেই শেষ হয়ে গেছে",
+    "stop_failed": "রানটি থামানো যায়নি",
+    "blocked": {
+      "no_provider_title": "আগে একটি LLM প্রোভাইডার বেছে নিন",
+      "no_provider_body": "নির্ধারিত কাজ আপনার অনুপস্থিতিতে চলে, তাই কথা বলার জন্য একটি ক্লাউড বা সেলফ-হোস্টেড LLM লাগে। সেটিংসে একটি বেছে নিন।",
+      "on_device_title": "নির্ধারিত কাজের জন্য ক্লাউড LLM লাগে",
+      "on_device_body": "অন-ডিভাইস মডেল ব্যাকগ্রাউন্ডে চলতে পারে না, তাই এটি নির্বাচিত থাকলে কাজগুলো বিরতিতে থাকে। চালাতে সেটিংসে ক্লাউড বা সেলফ-হোস্টেড প্রোভাইডারে যান।"
+    },
+    "list": {
+      "open_llm_settings": "LLM সেটিংস খুলুন",
+      "enabled_count": "{{total}}-এর মধ্যে {{enabled}}টি চালু",
+      "your_jobs": "আপনার কাজগুলো",
+      "explainer_background": "কাজ হলো এমন একটি প্রম্পট যা অ্যাসিস্ট্যান্ট আপনার বাছাই করা টুল ব্যবহার করে নির্ধারিত সময়ে আপনার জন্য চালায়। ফলাফল এখানে জমা হয় এবং অ্যাপ বন্ধ থাকলেও চলে — ব্যাটারি বাঁচাতে Android কয়েক মিনিট দেরি করাতে পারে।",
+      "explainer_foreground": "কাজ হলো এমন একটি প্রম্পট যা অ্যাসিস্ট্যান্ট আপনার বাছাই করা টুল ব্যবহার করে নির্ধারিত সময়ে আপনার জন্য চালায়। পরের বার অ্যাপ খুললে ফলাফল এখানে জমা থাকে।",
+      "new_job": "নতুন কাজ",
+      "waiting_for_cloud": "ক্লাউড LLM-এর অপেক্ষায়",
+      "next_run": "পরবর্তী রান {{time}}",
+      "not_scheduled": "নির্ধারিত নয়",
+      "empty_title": "এখনো কোনো নির্ধারিত কাজ নেই",
+      "empty_body": "অ্যাসিস্ট্যান্টকে প্রতি সকালে কোনো ওয়েবসাইট দেখতে, সাপ্তাহিক সারসংক্ষেপের খসড়া করতে, বা মাসের প্রথম দিনে রিপোর্ট বানাতে বলুন — চ্যাট না খুলেই।",
+      "create_first": "আপনার প্রথম কাজ তৈরি করুন",
+      "battery_optimized_title": "ফোন লক থাকলে কাজ ব্যর্থ হতে পারে",
+      "battery_optimized_body": "ব্যাটারি অপটিমাইজেশন ব্যাকগ্রাউন্ডে কাজ চলাকালীন নেটওয়ার্ক কেটে দিতে পারে। নির্ভরযোগ্য রানের জন্য অ্যাপ তথ্য খুলে ব্যাটারিতে ট্যাপ করে Unrestricted বেছে নিন।",
+      "open_battery_settings": "ব্যাটারি সেটিংস খুলুন",
+      "open_battery_settings_failed": "সেটিংস খোলা যায়নি"
+    },
+    "runs": {
+      "already_running": "এই কাজটি ইতিমধ্যে চলছে",
+      "start_failed": "কাজটি শুরু করা যায়নি",
+      "fallback_title": "কাজ",
+      "edit_job": "কাজ সম্পাদনা",
+      "next_run_with_date": "পরবর্তী রান {{relative}} · {{date}}",
+      "not_scheduled_to_run": "চালানোর জন্য নির্ধারিত নয়",
+      "notify": "জানান",
+      "last_run": "সর্বশেষ রান",
+      "never": "কখনো না",
+      "run_now": "এখন চালান",
+      "run_count_one": "{{count}}টি রান",
+      "run_count_other": "{{count}}টি রান",
+      "history": "ইতিহাস",
+      "empty_with_next": "এই কাজটি এখনো চলেনি। এর প্রথম রান {{time}}। পরীক্ষা করতে এখনই চালাতেও পারেন।",
+      "empty": "এই কাজটি এখনো চলেনি। পরীক্ষা করতে এখনই চালাতে পারেন।",
+      "manual": "· হাতে চালানো"
+    },
+    "form": {
+      "save_failed": "কাজটি সংরক্ষণ করা যায়নি",
+      "job_updated": "কাজ আপডেট হয়েছে",
+      "job_scheduled": "কাজ নির্ধারিত হয়েছে",
+      "could_not_save": "কাজটি সংরক্ষণ করা যায়নি",
+      "delete_title": "এই কাজটি মুছবেন?",
+      "delete_message": "\"{{name}}\" এবং এর তৈরি সব ফলাফল মুছে যাবে। এটি ফেরানো যাবে না।",
+      "job_deleted": "কাজ মুছে ফেলা হয়েছে",
+      "delete_failed": "কাজটি মোছা যায়নি",
+      "edit_title": "কাজ সম্পাদনা",
+      "new_title": "নতুন কাজ",
+      "what_section": "এটি কী করবে?",
+      "name": "নাম",
+      "name_placeholder": "সকালের সংবাদ সংক্ষেপ",
+      "prompt_hint": "চ্যাটে পাঠানোর মতো করে লিখুন। নির্দিষ্ট করে লিখুন — পরের প্রশ্নের উত্তর দেওয়ার মতো কেউ থাকবে না।",
+      "prompt_placeholder": "https://news.ycombinator.com পড়ুন এবং সবচেয়ে আকর্ষণীয় পাঁচটি খবরের একটি ছোট সংক্ষেপ লিখুন, প্রতিটির জন্য এক লাইনের মন্তব্যসহ।",
+      "when_section": "এটি কখন চলবে?",
+      "options": "অপশন",
+      "notify_title": "শেষ হলে আমাকে জানান",
+      "notify_description": "কোনো রান ফলাফলসহ শেষ হলে নোটিফিকেশন পাঠায়। ব্যর্থ বা ফাঁকা রান অ্যাপে শুধু একটি বিন্দু দেখায়।",
+      "enabled_description": "কাজ ও এর ফলাফল রেখে না চালাতে এটি বন্ধ করুন।",
+      "save_changes": "পরিবর্তন সংরক্ষণ",
+      "schedule_job": "কাজ নির্ধারণ করুন",
+      "delete_job": "কাজ মুছুন"
+    },
+    "tool_picker": {
+      "selected_count_one": "{{count}}টি নির্বাচিত",
+      "selected_count_other": "{{count}}টি নির্বাচিত",
+      "none_reply_only": "কিছু নয় — শুধু উত্তর",
+      "app_connections": "অ্যাপ সংযোগ",
+      "explainer": "আপনি যে টুল চালু করবেন তা প্রতিটি রানে মডেলকে দেওয়া হয়। যেসব টুল সাধারণত আপনার অনুমোদন চায় সেগুলো স্বয়ংক্রিয়ভাবে অনুমোদিত হয়, কারণ ট্যাপ করার মতো কেউ থাকে না।"
+    },
+    "builder": {
+      "daily": "প্রতিদিন",
+      "weekly": "প্রতি সপ্তাহে",
+      "monthly": "প্রতি মাসে",
+      "hourly": "প্রতি ঘণ্টায়",
+      "every_few_minutes": "কয়েক মিনিট পরপর",
+      "mode_schedule": "সময়সূচি",
+      "mode_cron": "Cron এক্সপ্রেশন",
+      "run": "চালান",
+      "every": "প্রতি",
+      "minutes_chip": "{{minutes}} মিনিট",
+      "at_minute": "মিনিটে",
+      "on": "যেদিন",
+      "on_day": "তারিখে",
+      "days_skipped": "যেসব মাসে {{day}} তারিখ নেই সেগুলো বাদ যায়।",
+      "at_time": "{{time}}-এ",
+      "custom_minute": "মিনিট :{{minute}} একটি cron এক্সপ্রেশন দিয়ে সেট করা হয়েছে — বদলাতে ওপরের একটি ধাপ বেছে নিন।",
+      "cron_help": "পাঁচটি ঘর: মিনিট, ঘণ্টা, মাসের দিন, মাস, সপ্তাহের দিন (০ = রবিবার)। সময় আপনার ফোনের টাইম জোনে।",
+      "invalid_cron": "এটি একটি বৈধ cron এক্সপ্রেশন নয়"
+    },
+    "run_detail": {
+      "run_missing": "সেই রানটি আর নেই",
+      "delete_title": "এই রানটি মুছবেন?",
+      "delete_message": "ফলাফল এবং এর তৈরি যেকোনো ফাইল মুছে যাবে।",
+      "run_deleted": "রান মুছে ফেলা হয়েছে",
+      "fallback_title": "রান",
+      "delete_run": "রান মুছুন",
+      "run_manually": "হাতে চালান",
+      "scheduled": "নির্ধারিত",
+      "tokens": "{{prompt}} প্রম্পট · {{completion}} কমপ্লিশন টোকেন",
+      "result": "ফলাফল",
+      "empty_completed": "মডেল কিছু না লিখেই শেষ করেছে।",
+      "empty_stopped": "রান থামার আগে কিছু তৈরি হয়নি।",
+      "stopping": "থামানো হচ্ছে…",
+      "working": "কাজ চলছে…"
+    },
+    "status": {
+      "queued": "সারিতে",
+      "running": "চলছে",
+      "completed": "সম্পন্ন",
+      "failed": "ব্যর্থ",
+      "timed_out": "সময় শেষ",
+      "stopped": "থামানো হয়েছে"
+    },
+    "unseen": "না-দেখা",
+    "relative_time": {
+      "in_under_a_minute": "এক মিনিটেরও কম সময়ে",
+      "just_now": "এইমাত্র",
+      "in_minutes": "{{minutes}} মিনিট পরে",
+      "minutes_ago": "{{minutes}} মিনিট আগে",
+      "in_hours": "{{hours}} ঘণ্টা পরে",
+      "hours_ago": "{{hours}} ঘণ্টা আগে",
+      "in_hours_minutes": "{{hours}} ঘণ্টা {{minutes}} মিনিট পরে",
+      "hours_minutes_ago": "{{hours}} ঘণ্টা {{minutes}} মিনিট আগে",
+      "in_days": "{{days}} দিন পরে",
+      "days_ago": "{{days}} দিন আগে"
+    },
+    "runner": {
+      "job_failed": "কাজ ব্যর্থ হয়েছে",
+      "created_files": "আপনার কাজ শেষ হয়েছে এবং আপনার জন্য ফাইল তৈরি করেছে।"
+    },
+    "schedule": {
+      "custom": "কাস্টম সময়সূচি ({{expression}})",
+      "invalid": "অবৈধ সময়সূচি",
+      "every_minute": "প্রতি মিনিটে",
+      "every_minutes_one": "প্রতি {{count}} মিনিটে",
+      "every_minutes_other": "প্রতি {{count}} মিনিটে",
+      "every_hour": "প্রতি ঘণ্টায়",
+      "every_hour_at": "প্রতি ঘণ্টায় {{minute}} মিনিটে",
+      "every_day_at": "প্রতিদিন {{time}}-এ",
+      "weekdays_at": "কর্মদিবসে {{time}}-এ",
+      "weekends_at": "সপ্তাহান্তে {{time}}-এ",
+      "weekly_single": "প্রতি {{day}} {{time}}-এ",
+      "weekly_multiple": "প্রতি {{days}} ও {{last}} {{time}}-এ",
+      "list_separator": ", ",
+      "monthly": "প্রতি মাসের {{day}} {{time}}-এ",
+      "ordinal_st": "{{n}} তারিখ",
+      "ordinal_nd": "{{n}} তারিখ",
+      "ordinal_rd": "{{n}} তারিখ",
+      "ordinal_th": "{{n}} তারিখ",
+      "time_am": "{{hour}}:{{minute}} পূর্বাহ্ণ",
+      "time_pm": "{{hour}}:{{minute}} অপরাহ্ণ",
+      "hour_am": "{{hour}} পূর্বাহ্ণ",
+      "hour_pm": "{{hour}} অপরাহ্ণ"
+    },
+    "weekdays_short": {
+      "sun": "রবি",
+      "mon": "সোম",
+      "tue": "মঙ্গল",
+      "wed": "বুধ",
+      "thu": "বৃহ.",
+      "fri": "শুক্র",
+      "sat": "শনি"
+    },
+    "weekdays_long": {
+      "sunday": "রবিবার",
+      "monday": "সোমবার",
+      "tuesday": "মঙ্গলবার",
+      "wednesday": "বুধবার",
+      "thursday": "বৃহস্পতিবার",
+      "friday": "শুক্রবার",
+      "saturday": "শনিবার"
+    }
+  },
+  "notifications": {
+    "channels": {
+      "download_progress": "ডাউনলোডের অগ্রগতি",
+      "chat_replies": "চ্যাটের উত্তর",
+      "chat_replies_description": "NexVora AI Workspace ব্যাকগ্রাউন্ডে থাকাকালীন উত্তর শেষ হলে জানায়",
+      "scheduled_jobs": "নির্ধারিত কাজ",
+      "scheduled_jobs_description": "কোনো নির্ধারিত কাজ চলা শেষ হলে জানায়"
+    },
+    "blocked_nudge": {
+      "title": "উত্তর শেষ হলে নোটিফিকেশন পান",
+      "message": "NexVora AI Workspace-এর নোটিফিকেশন বন্ধ আছে। চালু করলে ফোন লক থাকলেও উত্তর শেষ হলে জানতে পারবেন।",
+      "not_now": "এখন নয়",
+      "open_settings": "সেটিংস খুলুন"
+    },
+    "chat": {
+      "ready_title": "উত্তর তৈরি",
+      "failed_title": "উত্তর ব্যর্থ",
+      "ready_body": "আপনার উত্তর তৈরি হয়েছে।",
+      "failed_body": "আপনার উত্তরটি সম্পূর্ণ করা যায়নি। কী হয়েছে দেখতে ট্যাপ করুন।"
+    },
+    "scheduled_job": {
+      "finished_title": "{{name}} শেষ হয়েছে",
+      "fallback_body": "আপনার নির্ধারিত কাজের একটি ফলাফল আছে।"
+    }
+  },
+  "home": {
+    "welcome_title": "NexVora AI Workspace-এ স্বাগতম",
+    "get_started": "শুরু করতে একটি নতুন ওয়ার্কস্পেস তৈরি করুন।",
+    "create_workspace": "ওয়ার্কস্পেস তৈরি করুন",
+    "default_workspace_name": "আমার ওয়ার্কস্পেস"
+  },
+  "share": {
+    "unsupported_content": "NexVora AI Workspace-এ শুধু ফাইল, ছবি ও লিংক শেয়ার করা যায়",
+    "finish_onboarding": "শেয়ার করার আগে NexVora AI Workspace-এর সেটআপ শেষ করুন",
+    "open_failed": "শেয়ার করা কনটেন্ট খোলা যায়নি"
+  },
+  "deep_links": {
+    "finish_onboarding": "লিংক খোলার আগে NexVora AI Workspace-এর সেটআপ শেষ করুন"
+  },
+  "nex": {
+    "app_name": "NexVora AI Workspace",
+    "tagline": "আপনার বুদ্ধিমান ডিজিটাল ওয়ার্কস্পেস",
+    "nav": {
+      "home": "হোম",
+      "ai_chat": "AI চ্যাট",
+      "workspaces": "ওয়ার্কস্পেস",
+      "documents": "ডকুমেন্ট",
+      "agents": "AI এজেন্ট",
+      "models": "মডেল ম্যানেজার",
+      "search": "খুঁজুন",
+      "scheduled_tasks": "নির্ধারিত কাজ",
+      "chat_history": "চ্যাট ইতিহাস",
+      "settings": "সেটিংস",
+      "profile": "প্রোফাইল",
+      "about": "NexVora সম্পর্কে",
+      "menu": "মেনু খুলুন"
+    },
+    "common": {
+      "all": "সব",
+      "loading": "লোড হচ্ছে…",
+      "load_failed": "এই স্ক্রিন লোড করা যায়নি",
+      "retry": "আবার চেষ্টা করুন",
+      "see_all": "সব দেখুন",
+      "rename": "নাম পরিবর্তন",
+      "more_actions": "আরও অ্যাকশন",
+      "something_wrong": "কিছু একটা ভুল হয়েছে। আবার চেষ্টা করুন।",
+      "offline": "আপনি অফলাইনে আছেন। অন-ডিভাইস মডেল, সার্চ ও আপনার ডকুমেন্ট এখনো কাজ করে; ক্লাউড মডেল, ওয়েব সার্চ ও ডাউনলোডে ইন্টারনেট লাগে।"
+    },
+    "home": {
+      "greeting_morning": "শুভ সকাল",
+      "greeting_afternoon": "শুভ অপরাহ্ণ",
+      "greeting_evening": "শুভ সন্ধ্যা",
+      "new_chat": "নতুন চ্যাট",
+      "quick_chat": "AI চ্যাট",
+      "quick_import": "ডকুমেন্ট",
+      "quick_agents": "এজেন্ট",
+      "quick_tasks": "কাজ",
+      "ai_model": "AI মডেল",
+      "no_model_selected": "এখনো কোনো মডেল বাছা হয়নি",
+      "no_provider": "কোনো AI মডেল সংযুক্ত নেই",
+      "no_provider_hint": "প্রোভাইডার সংযুক্ত করতে বা অন-ডিভাইস মডেল ডাউনলোড করতে মডেল ম্যানেজার খুলুন।",
+      "recent_chats": "সাম্প্রতিক কথোপকথন",
+      "no_chats": "এখনো কোনো কথোপকথন নেই। “নতুন চ্যাট” দিয়ে একটি শুরু করুন।",
+      "workspaces": "ওয়ার্কস্পেস",
+      "no_workspaces": "আপনার এখনো কোনো ওয়ার্কস্পেস নেই।",
+      "create_workspace": "নতুন ওয়ার্কস্পেস তৈরি করুন",
+      "documents": "সাম্প্রতিক ডকুমেন্ট",
+      "status": "ব্যবহার ও স্টোরেজ",
+      "stat_chats": "কথোপকথন",
+      "stat_documents": "ডকুমেন্ট",
+      "stat_storage": "ডিভাইস স্টোরেজ",
+      "storage_free": "{{total}}-এর মধ্যে {{free}} খালি"
+    },
+    "workspaces": {
+      "counts": "{{chats}}টি চ্যাট · {{docs}}টি ডকুমেন্ট",
+      "remote": "রিমোট",
+      "open": "খুলুন",
+      "documents": "ডকুমেন্ট",
+      "settings": "ওয়ার্কস্পেস সেটিংস",
+      "rename_title": "ওয়ার্কস্পেসের নাম পরিবর্তন",
+      "delete_title": "“{{name}}” মুছবেন?",
+      "delete_message": "এটি ওয়ার্কস্পেসটি তার {{chats}}টি চ্যাট ও {{docs}}টি ডকুমেন্টসহ এই ডিভাইস থেকে স্থায়ীভাবে মুছে দেবে।",
+      "empty_title": "এখনো কোনো ওয়ার্কস্পেস নেই",
+      "empty_message": "একটি ওয়ার্কস্পেস নিজের চ্যাট, ডকুমেন্ট ও নির্দেশনা একসাথে রাখে।"
+    },
+    "documents": {
+      "import": "ডকুমেন্ট ইমপোর্ট",
+      "search": "ডকুমেন্ট খুঁজুন",
+      "empty": "এখনো কোনো ডকুমেন্ট নেই",
+      "empty_hint": "ডকুমেন্টের সাথে চ্যাট করতে PDF, Word, PowerPoint, স্প্রেডশিট বা টেক্সট ফাইল ইমপোর্ট করুন।",
+      "choose_workspace": "কোন ওয়ার্কস্পেসে যোগ করবেন?",
+      "need_workspace": "আগে একটি ওয়ার্কস্পেস তৈরি করুন।",
+      "imported": "“{{name}}” ইমপোর্ট হয়েছে",
+      "stage_reading": "ফাইল পড়া হচ্ছে…",
+      "stage_embedding": "এই ডিভাইসে ডকুমেন্ট ইনডেক্স হচ্ছে…",
+      "stage_saving": "নলেজ বেসে সংরক্ষণ হচ্ছে…",
+      "stage_hint": "বড় ফাইলে কিছু সময় লাগতে পারে। অ্যাপ খোলা রাখুন।",
+      "status_embedded": "ইনডেক্স করা · {{count}}টি অংশ",
+      "status_full": "চ্যাটে সম্পূর্ণ পাঠানো হয়",
+      "delete_title": "“{{name}}” মুছবেন?",
+      "delete_message": "ডকুমেন্ট ও এর ইনডেক্স এই ডিভাইস থেকে সরানো হবে।",
+      "open_workspace": "ওয়ার্কস্পেস {{name}} খুলুন",
+      "cloud_title": "চ্যাটের ভেতর থেকে ডকুমেন্ট সংযুক্ত করুন",
+      "cloud_message": "ক্লাউড AI মডেলে ডকুমেন্ট একটি কথোপকথনের সাথে সম্পূর্ণ পাঠানো হয়, তাই চ্যাটের সংযুক্তি বাটন থেকে এটি যোগ করুন। এখানে ইনডেক্স করা নলেজ বেস বানাতে অন-ডিভাইস মডেলে যান।",
+      "summary": "{{count}}টি ডকুমেন্ট · {{parts}}টি ইনডেক্স করা অংশ",
+      "cleanup": "পরিষ্কার করুন",
+      "cleanup_done": "অব্যবহৃত প্রসেস করা ফাইল সরানো হয়েছে",
+      "status_missing": "টেক্সট নেই",
+      "missing_hint": "এর টেক্সট হারিয়ে গেছে, তাই এটি মডেলকে পাঠানো যাবে না। এটি মুছে ফাইলটি আবার ইমপোর্ট করুন।"
+    },
+    "agents": {
+      "subtitle": "আপনার অ্যাসিস্ট্যান্ট যেসব টুল ব্যবহার করতে পারে",
+      "assistant_title": "NexVora অ্যাসিস্ট্যান্ট",
+      "assistant_desc": "একটি অ্যাসিস্ট্যান্ট, যে নিচে আপনার চালু করা টুলগুলো কখন কল করবে তা নিজে ঠিক করে। বন্ধ থাকা টুল সে ব্যবহার করতে পারে না।",
+      "group_default": "বিল্ট-ইন টুল",
+      "group_apps": "অ্যাপ সংযোগ",
+      "setup_required": "সেটআপ দরকার",
+      "cloud_only": "শুধু ক্লাউড মডেলে",
+      "configure": "টুল কনফিগারেশন",
+      "activity": "নির্ধারিত কাজ",
+      "manage_jobs": "পরিচালনা",
+      "no_runs": "এখনো কোনো রান নেই।",
+      "deleted_job": "মুছে ফেলা কাজ",
+      "run_queued": "সারিতে",
+      "run_running": "চলছে",
+      "run_completed": "সম্পন্ন",
+      "run_failed": "ব্যর্থ",
+      "run_timed_out": "সময় শেষ",
+      "run_cancelled": "বাতিল",
+      "jobs_count": "নির্ধারিত কাজ: {{count}}",
+      "jobs_enabled": "চালু: {{count}}"
+    },
+    "models": {
+      "active": "সক্রিয় মডেল",
+      "change_provider": "প্রোভাইডার সংযুক্ত করুন বা বদলান",
+      "cloud": "ক্লাউড",
+      "loaded": "লোড করা",
+      "not_loaded": "লোড করা নেই",
+      "providers": "কনফিগার করা প্রোভাইডার",
+      "no_providers": "এখনো কোনো ক্লাউড বা সার্ভার প্রোভাইডার কনফিগার করা নেই।",
+      "in_use": "ব্যবহারে",
+      "test": "সংযোগ পরীক্ষা",
+      "use": "ব্যবহার করুন",
+      "configure": "কনফিগার",
+      "test_failed": "সংযোগ ব্যর্থ: {{message}}",
+      "no_saved_config": "এই প্রোভাইডারের কোনো সংরক্ষিত সেটিংস নেই।",
+      "switched": "এখন {{name}} ব্যবহার হচ্ছে",
+      "local": "অন-ডিভাইস মডেল",
+      "no_local": "এই ডিভাইসে কোনো মডেল ফাইল পাওয়া যায়নি।",
+      "on_disk": "ডিস্কে আছে",
+      "free_space": "এই ডিভাইসে {{free}} খালি",
+      "manage_local": "মডেল ডাউনলোড বা সরান",
+      "local_note": "শুধু অ্যাপের মডেল ফোল্ডারে সত্যিই থাকা ফাইলগুলো দেখানো হয়েছে। মডেল লোড আছে কি না তা অন-ডিভাইস ইঞ্জিন জানায়।",
+      "test_ok": "সংযুক্ত — উপলব্ধ মডেল: {{count}}",
+      "device": "এই ডিভাইস",
+      "ram": "মোট মেমরি (RAM)",
+      "storage_free": "খালি স্টোরেজ",
+      "howto_title": "অন-ডিভাইস মডেল ব্যবহার",
+      "howto_1": "আপনার RAM-এর সাথে মানানসই মডেল বেছে নিন: মোটামুটি নিয়ম হলো ফাইলের আকার আপনার মোট মেমরির চেয়ে অনেক কম হওয়া উচিত। ছোট মডেল দ্রুত লোড হয় এবং ক্র্যাশের সম্ভাবনা কম।",
+      "howto_2": "মডেল শুধু তখনই ডাউনলোড হয় যখন আপনি ডাউনলোড বেছে নেন। কিছুই স্বয়ংক্রিয়ভাবে ডাউনলোড হয় না।",
+      "howto_3": "কোনো মডেল লোড না হলে অ্যাপ ত্রুটিটি দেখায়। ছোট মডেল চেষ্টা করুন, অন্য অ্যাপ বন্ধ করুন, অথবা ওয়ার্কস্পেস সেটিংসে কনটেক্সট দৈর্ঘ্য কমান।",
+      "howto_4": "সামঞ্জস্যের নিশ্চয়তা এই অ্যাপ দেয় না: কোনো মডেল চলবে কি না তা আপনার ডিভাইস ও মডেল ফাইলের ওপর নির্ভর করে।",
+      "unload": "মেমরি থেকে মডেল আনলোড করুন",
+      "unloaded": "মডেল আনলোড হয়েছে। আপনার পরের বার্তায় এটি আবার লোড হবে।",
+      "unload_failed": "মডেলটি আনলোড করা যায়নি।",
+      "import_title": "নিজের GGUF মডেল ইমপোর্ট করা",
+      "import_1": "ওপরের “মডেল ডাউনলোড বা সরান” খুলুন, “Hugging Face থেকে একটি মডেল যোগ করুন” বেছে একটি মডেল রিপো বা লিংক পেস্ট করুন, তারপর একটি GGUF ফাইল বাছুন (ফোনে Q4-এর মতো ছোট কোয়ান্টাইজেশনই সবচেয়ে ভালো চলে)। গেটেড বা প্রাইভেট মডেল সমর্থিত নয়।",
+      "import_2": "ফাইল এই ডিভাইসে আসার পরই ওপরের তালিকায় দেখা যায়। আপনি ডাউনলোড নিশ্চিত না করলে অ্যাপ কখনো কোনো মডেল ডাউনলোড করে না।"
+    },
+    "search": {
+      "placeholder": "চ্যাট, ওয়ার্কস্পেস, ডকুমেন্ট খুঁজুন…",
+      "privacy": "খোঁজা শুধু এই ডিভাইসেই চলে।",
+      "start_title": "সবকিছুতে খুঁজুন",
+      "start_hint": "কমপক্ষে ২টি অক্ষর লিখুন।",
+      "no_results": "কোনো ফলাফল নেই",
+      "no_results_hint": "অন্য একটি শব্দ চেষ্টা করুন।",
+      "conversations": "কথোপকথন",
+      "messages": "বার্তা",
+      "workspaces": "ওয়ার্কস্পেস",
+      "documents": "ডকুমেন্ট",
+      "app_sections": "অ্যাপের সেকশন"
+    },
+    "history": {
+      "search": "কথোপকথন খুঁজুন",
+      "with_messages": "বার্তাসহ",
+      "empty": "কোনো কথোপকথন নেই",
+      "empty_hint": "আপনার কথোপকথন এখানে দেখা যাবে।",
+      "continue": "চালিয়ে যান",
+      "rename_title": "কথোপকথনের নাম পরিবর্তন",
+      "delete_title": "“{{name}}” মুছবেন?",
+      "delete_message": "এই কথোপকথন ও এর বার্তাগুলো এই ডিভাইস থেকে মুছে যাবে।",
+      "export": "এক্সপোর্ট",
+      "export_as": "এই ফরম্যাটে এক্সপোর্ট",
+      "exported": "আপনার ডাউনলোডস ফোল্ডারে সংরক্ষিত হয়েছে",
+      "export_empty": "এই কথোপকথনে এক্সপোর্ট করার মতো কোনো বার্তা নেই।",
+      "export_failed": "এই কথোপকথন এক্সপোর্ট করা যায়নি।"
+    },
+    "profile": {
+      "local_profile": "লোকাল প্রোফাইল",
+      "no_account": "কোনো অ্যাকাউন্ট নেই — সবকিছু এই ডিভাইসেই সংরক্ষিত।",
+      "overview": "সারসংক্ষেপ",
+      "connection": "সার্ভার সংযোগ",
+      "no_remote": "কোনো রিমোট সার্ভারে সংযুক্ত নয়।",
+      "remote_workspace": "রিমোট ওয়ার্কস্পেস",
+      "check_connection": "সংযোগ পরীক্ষা করুন",
+      "connect_server": "একটি সার্ভারে সংযুক্ত হন",
+      "reachable": "পৌঁছানো যাচ্ছে",
+      "unreachable": "পৌঁছানো যাচ্ছে না",
+      "preferences": "পছন্দসমূহ",
+      "theme": "থিম",
+      "theme_dark": "ডার্ক (লাইট থিম এখনো নেই)",
+      "model_prefs": "মডেলের পছন্দ",
+      "notifications": "নোটিফিকেশন",
+      "notifications_hint": "Android-এর নোটিফিকেশন সেটিংস খুলুন",
+      "settings_hint": "গোপনীয়তা, ডেটা, স্টোরেজ ও আরও",
+      "external_services": "গোপনীয়তা: বাহ্যিক সেবা",
+      "services_intro": "NexVora AI Workspace-এর নিজস্ব কোনো সার্ভার নেই। এগুলোই একমাত্র বাইরের সেবা যার সাথে এটি যোগাযোগ করতে পারে, এবং শুধু নিচের বর্ণনা অনুযায়ী:",
+      "in_use": "সক্রিয়",
+      "idle": "শুধু ব্যবহার করলে",
+      "svc_provider": "আপনার বাছাই করা AI প্রোভাইডার",
+      "svc_provider_none": "অন-ডিভাইস মডেল: ফোন থেকে কিছুই বাইরে যায় না",
+      "svc_hf": "অন-ডিভাইস মডেল ব্রাউজ ও ডাউনলোড।",
+      "svc_search_on": "আপনার সার্চ কোয়েরি {{host}}-এ যায়।",
+      "svc_search_off": "বন্ধ। কোনো সার্চ প্রোভাইডার কনফিগার করা নেই।",
+      "svc_web": "আপনি যেসব ওয়েব পেজ নিয়ে জিজ্ঞেস করেন",
+      "svc_web_detail": "কোনো লিংক শেয়ার করলে বা কোনো URL নিয়ে জিজ্ঞেস করলে পেজটি তার ওয়েবসাইট থেকে আনা হয়।",
+      "svc_remote": "আপনার AnythingLLM সার্ভার",
+      "svc_remote_off": "সংযুক্ত নয়।",
+      "keys_note": "API কী Android কীস্টোরে (কীচেইন) রাখা হয় এবং কখনো লগে লেখা হয় না। প্রম্পট ও ডকুমেন্ট শুধু আপনার বাছাই করা প্রোভাইডারকে পাঠানো হয়।",
+      "app_info": "অ্যাপের তথ্য",
+      "svc_remote_on": "সংযুক্ত রিমোট ওয়ার্কস্পেস: {{count}}"
+    },
+    "about": {
+      "version": "সংস্করণ {{version}}",
+      "app_info": "অ্যাপ্লিকেশন",
+      "developer": "ডেভেলপার",
+      "company": "কোম্পানি",
+      "package": "প্যাকেজ",
+      "contact": "যোগাযোগ",
+      "email": "ইমেইল",
+      "credits": "কৃতিত্ব",
+      "developed_by": "{{name}} দ্বারা ডেভেলপ করা।",
+      "published_by": "{{company}} দ্বারা প্রকাশিত।",
+      "license": "লাইসেন্স ও কৃতজ্ঞতা",
+      "license_text": "NexVora AI Workspace একটি ফ্রি সফটওয়্যার, GNU General Public License v3.0 বা তার পরবর্তী সংস্করণের অধীনে লাইসেন্সপ্রাপ্ত। সেই লাইসেন্সের অধীনে আপনি এটি ব্যবহার, অধ্যয়ন, শেয়ার ও পরিবর্তন করতে পারেন।",
+      "upstream_text": "এটি Mintplex Labs, Inc. ও অবদানকারীদের তৈরি AnythingLLM Mobile-এর (GPL-3.0) একটি পরিবর্তিত সংস্করণ। NexVora AI Workspace তৈরি করেছে NexVora Lab’s Ofc এবং মূল লেখকরা এটি তৈরি, অনুমোদন বা সমর্থন করেননি।",
+      "gpl_link": "GNU GPL v3 লাইসেন্সের পাঠ",
+      "upstream_link": "মূল প্রজেক্ট: AnythingLLM Mobile",
+      "source_text": "সম্পূর্ণ সংশ্লিষ্ট সোর্স কোড অনুরোধে NexVora Lab’s Ofc-এর কাছ থেকে পাওয়া যায় — ওপরের যোগাযোগের তথ্য ব্যবহার করুন।",
+      "privacy": "গোপনীয়তা",
+      "privacy_hint": "এই অ্যাপ যেসব বাহ্যিক সেবার সাথে যোগাযোগ করতে পারে তা দেখুন",
+      "cannot_open": "এই ডিভাইসে লিংকটি খোলা যায়নি।"
+    },
+    "web_search": {
+      "title": "ওয়েব সার্চ",
+      "summary": "আপনি সার্চ প্রোভাইডার না বাছা পর্যন্ত বন্ধ",
+      "setup_required": "আগে ওয়েব সার্চ সেট করুন (সেটিংস › ওয়েব সার্চ)।",
+      "explainer": "ওয়েব সার্চ ডিফল্টে বন্ধ। NexVora AI Workspace-এর কোনো সার্চ সার্ভার বা শেয়ার করা অ্যাকাউন্ট নেই। নিচে নিজের প্রোভাইডার বেছে নিন; কোয়েরি শুধু সেটিতেই যায়, এবং শুধু তখনই যখন অ্যাসিস্ট্যান্ট সার্চ করার সিদ্ধান্ত নেয়।",
+      "provider": "প্রোভাইডার",
+      "provider_searxng": "আপনার SearXNG সার্ভার",
+      "provider_you": "You.com",
+      "url": "সার্ভারের ঠিকানা",
+      "searxng_hint": "আপনার SearXNG ইনস্ট্যান্সে JSON আউটপুট চালু থাকতে হবে।",
+      "key_searxng": "অ্যাক্সেস টোকেন (ঐচ্ছিক)",
+      "key_you": "API কী (ঐচ্ছিক)",
+      "key_placeholder": "সেট করা নেই",
+      "key_stored": "Android কীস্টোরে সংরক্ষিত। শুধু আপনার সার্ভারে Bearer টোকেন হিসেবে পাঠানো হয়।",
+      "you_hint": "কী ছাড়া You.com-এর বিনা-কী ফ্রি স্তর ব্যবহার হয়, যাতে রেট লিমিট থাকতে পারে।",
+      "sends_you": "আপনার সার্চ কোয়েরি api.you.com-এ পাঠানো হয়।",
+      "sends_searxng": "আপনার সার্চ কোয়েরি ওপরের সার্ভার ঠিকানায় পাঠানো হয়।",
+      "choose_provider": "আগে একটি প্রোভাইডার বাছুন।",
+      "saved": "ওয়েব সার্চ সেটিংস সংরক্ষিত হয়েছে",
+      "removed": "ওয়েব সার্চ বন্ধ করা হয়েছে এবং সেটিংস সরানো হয়েছে",
+      "remove": "সেটিংস সরান ও বন্ধ করুন",
+      "test_failed": "প্রোভাইডার সঠিকভাবে সাড়া দেয়নি। ঠিকানা ও কী দেখুন।",
+      "then_enable": "সংরক্ষণের পর AI এজেন্ট বা চ্যাটের টুল মেনুতে ওয়েব সার্চ টুলটি চালু করুন।",
+      "test_ok": "কাজ করছে — পাওয়া ফলাফল: {{count}}"
+    }
+  }
+}

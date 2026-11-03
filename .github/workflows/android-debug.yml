@@ -1,0 +1,74 @@
+name: Android Debug APK
+
+# Builds a debug APK with the JavaScript bundled inside, so it installs and runs without Metro.
+# Run it from the GitHub "Actions" tab (workflow_dispatch). No secrets are needed.
+on:
+  workflow_dispatch:
+
+jobs:
+  checks:
+    # Quality checks. They report problems but do NOT block the APK build (continue-on-error),
+    # because the project has not been type-checked in an environment with dependencies yet.
+    runs-on: ubuntu-24.04
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: yarn
+      - run: yarn install --network-timeout 600000
+        env:
+          HUSKY: "0"
+      - run: node scripts/translations/verify.mjs
+      - run: yarn typecheck
+      - run: yarn lint
+      - run: yarn test --ci
+
+  build-debug:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: yarn
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - name: Set up Android SDK
+        uses: android-actions/setup-android@v3
+
+      - name: Install SDK components required by android/build.gradle
+        run: |
+          yes | sdkmanager --licenses > /dev/null || true
+          sdkmanager "platform-tools" "platforms;android-36" "build-tools;36.0.0" "ndk;27.1.12297006" "cmake;3.22.1"
+
+      - name: Install JavaScript dependencies
+        # Not --frozen-lockfile: yarn.lock still lists the removed Firebase packages and is regenerated here.
+        env:
+          HUSKY: "0"   # git hooks are not needed in CI
+        run: yarn install --network-timeout 600000
+
+      - name: Create .env (no secrets are needed for a debug build)
+        run: cp .env.example .env
+
+      - uses: gradle/actions/setup-gradle@v4
+
+      - name: Assemble debug APK (JavaScript bundled)
+        working-directory: android
+        run: |
+          chmod +x ./gradlew
+          ./gradlew assembleDebug -PbundleDebug=true --stacktrace
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: NexVora-AI-Workspace-debug-apk
+          path: android/app/build/outputs/apk/debug/app-debug.apk
+          if-no-files-found: error
